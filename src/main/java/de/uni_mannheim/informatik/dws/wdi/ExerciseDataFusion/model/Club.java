@@ -34,19 +34,21 @@ import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 public class Club extends AbstractRecord<Attribute> implements Serializable {
 
 	
+	
+	private static final long serialVersionUID = 1L;
 	private String name;
 	private List<Player> players;	
-	protected String id;
 	
 	
-	public static final Attribute NAME = new Attribute("Name");
-	public static final Attribute PLAYERS = new Attribute("Players");
+	public static final Attribute NAME = new Attribute("name");
+	public static final Attribute PLAYERS = new Attribute("players");
 
 
 	public Club(String identifier, String provenance) {
 		super(identifier, provenance);
 		players = new LinkedList<>();
 	}
+
 
 	
 

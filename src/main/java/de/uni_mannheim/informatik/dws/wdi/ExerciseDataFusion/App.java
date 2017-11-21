@@ -43,19 +43,20 @@ public class App
     {
     	// Load the Data into FusibleDataSet
     			FusibleDataSet<Club, Attribute> ds1 = new FusibleHashedDataSet<>();
-    			new ClubXMLReader().loadFromXML(new File("data/input/fifa17.xml"), "/movies/movie", ds1);
+    			new ClubXMLReader().loadFromXML(new File("data/input/fifa17.xml"), "/stadiums/stadium/clubs/club", ds1);
     			ds1.printDataSetDensityReport();
+//    			System.out.println(ds1.getSchema().toString());
 
     			FusibleDataSet<Club, Attribute> ds2 = new FusibleHashedDataSet<>();
-    			new ClubXMLReader().loadFromXML(new File("data/input/fut17.xml"), "/movies/movie", ds2);
+    			new ClubXMLReader().loadFromXML(new File("data/input/fut17.xml"), "/stadiums/stadium/clubs/club", ds2);
     			ds2.printDataSetDensityReport();
 
     			FusibleDataSet<Club, Attribute> ds3 = new FusibleHashedDataSet<>();
-    			new ClubXMLReader().loadFromXML(new File("data/input/stadium.xml"), "/movies/movie", ds3);
+    			new ClubXMLReader().loadFromXML(new File("data/input/stadium.xml"), "/stadiums/stadium/clubs/club", ds3);
     			ds3.printDataSetDensityReport();
     			
     			FusibleDataSet<Club, Attribute> ds4 = new FusibleHashedDataSet<>();
-    			new ClubXMLReader().loadFromXML(new File("data/input/transfermarkt.xml"), "/movies/movie", ds4);
+    			new ClubXMLReader().loadFromXML(new File("data/input/transfermarkt.xml"), "/stadiums/stadium/clubs/club", ds4);
     			ds4.printDataSetDensityReport();
 
     			// Maintain Provenance
