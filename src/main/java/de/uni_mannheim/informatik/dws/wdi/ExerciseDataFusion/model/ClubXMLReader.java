@@ -39,6 +39,9 @@ public class ClubXMLReader extends XMLMatchableReader<Club, Attribute>  {
 	protected void initialiseDataset(DataSet<Club, Attribute> dataset) {
 		super.initialiseDataset(dataset);
 		
+		dataset.addAttribute(Club.NAME);
+		dataset.addAttribute(Club.PLAYERS);
+		
 	}
 	
 	@Override

@@ -45,7 +45,7 @@ public class App
     			FusibleDataSet<Club, Attribute> ds1 = new FusibleHashedDataSet<>();
     			new ClubXMLReader().loadFromXML(new File("data/input/fifa17.xml"), "/stadiums/stadium/clubs/club", ds1);
     			ds1.printDataSetDensityReport();
-//    			System.out.println(ds1.getSchema().toString());
+    			//System.out.println(ds1.getSchema().toString());
 
     			FusibleDataSet<Club, Attribute> ds2 = new FusibleHashedDataSet<>();
     			new ClubXMLReader().loadFromXML(new File("data/input/fut17.xml"), "/stadiums/stadium/clubs/club", ds2);
@@ -98,8 +98,9 @@ public class App
 
     			// load the gold standard
     			DataSet<Club, Attribute> gs = new FusibleHashedDataSet<>();
-    			new ClubXMLReader().loadFromXML(new File("data/goldstandard/fused.xml"), "/clubs/club", gs);
-
+    			//new ClubXMLReader().loadFromXML(new File("data/goldstandard/fused.xml"), "/clubs/club", gs);
+    			//new ClubXMLReader().loadFromXML(new File("data/goldstandard/gs_club_stadium_2_fifa17.csv"),"/stadiums/stadium/clubs/club", gs);
+    			
     			// evaluate
     			DataFusionEvaluator<Club, Attribute> evaluator = new DataFusionEvaluator<>(
     					strategy, new RecordGroupFactory<Club, Attribute>());
