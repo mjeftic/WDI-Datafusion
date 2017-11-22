@@ -45,7 +45,7 @@ public class App
     			FusibleDataSet<Club, Attribute> ds1 = new FusibleHashedDataSet<>();
     			new ClubXMLReader().loadFromXML(new File("data/input/fifa17.xml"), "/stadiums/stadium/clubs/club", ds1);
     			ds1.printDataSetDensityReport();
-    			//System.out.println(ds1.getSchema().toString());
+    		
 
     			FusibleDataSet<Club, Attribute> ds2 = new FusibleHashedDataSet<>();
     			new ClubXMLReader().loadFromXML(new File("data/input/fut17.xml"), "/stadiums/stadium/clubs/club", ds2);
@@ -55,23 +55,16 @@ public class App
     			new ClubXMLReader().loadFromXML(new File("data/input/stadium.xml"), "/stadiums/stadium/clubs/club", ds3);
     			ds3.printDataSetDensityReport();
     			
-    			FusibleDataSet<Club, Attribute> ds4 = new FusibleHashedDataSet<>();
-    			new ClubXMLReader().loadFromXML(new File("data/input/transfermarkt.xml"), "/stadiums/stadium/clubs/club", ds4);
-    			ds4.printDataSetDensityReport();
 
     			// Maintain Provenance
     			// Scores (e.g. from rating)
     			ds1.setScore(1.0);
-    			ds2.setScore(2.0);
-    			//ds3.setScore(3.0);
-    			ds4.setScore(4.0);
 
     			//TODO
     			// load correspondences
     			CorrespondenceSet<Club, Attribute> correspondences = new CorrespondenceSet<>();
-    			correspondences.loadCorrespondences(new File("data/correspondences/fifa17_2_fut17_correspondences.csv"), ds1, ds2);
-    			correspondences.loadCorrespondences(new File("data/correspondences/fifa17_2_trans_correspondences.csv"), ds1, ds4);
-    			correspondences.loadCorrespondences(new File("data/correspondences/fut17_2_trans_correspondences.csv"), ds2, ds4);
+    			correspondences.loadCorrespondences(new File("data/correspondences/club_fut17_2_fifa17_correspondences.csv"), ds2, ds1);
+    			correspondences.loadCorrespondences(new File("data/correspondences/club_stadium_2_fifa17_correspondences.csv"), ds3, ds1);
     			
     			// write group size distribution
     			correspondences.printGroupSizeDistribution();
