@@ -41,6 +41,7 @@ public class ClubXMLReader extends XMLMatchableReader<Club, Attribute>  {
 		
 		dataset.addAttribute(Club.NAME);
 		dataset.addAttribute(Club.PLAYERS);
+		dataset.addAttribute(Club.CAPACITY);
 		
 	}
 	
@@ -53,6 +54,8 @@ public class ClubXMLReader extends XMLMatchableReader<Club, Attribute>  {
 
 		// fill the attributes
 		club.setName(getValueFromChildElement(node, "name"));
+		
+		club.setCapacity(getValueFromChildElement(node, "capacity"));
 		
 		// load the list of actors
 		List<Player> players = getObjectListFromChildElement(node, "players",

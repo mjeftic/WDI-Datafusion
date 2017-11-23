@@ -38,10 +38,13 @@ public class Club extends AbstractRecord<Attribute> implements Serializable {
 	private static final long serialVersionUID = 1L;
 	private String name;
 	private List<Player> players;	
+	private String capacity;
 	
-	
+
+
 	public static final Attribute NAME = new Attribute("name");
 	public static final Attribute PLAYERS = new Attribute("players");
+	public static final Attribute CAPACITY = new Attribute("capacity");
 
 
 	public Club(String identifier, String provenance) {
@@ -50,6 +53,14 @@ public class Club extends AbstractRecord<Attribute> implements Serializable {
 	}
 
 
+	public String getCapacity() {
+		return capacity;
+	}
+
+
+	public void setCapacity(String capacity) {
+		this.capacity = capacity;
+	}
 	
 
 	public String getName() {
@@ -146,6 +157,8 @@ public class Club extends AbstractRecord<Attribute> implements Serializable {
 			return getName() != null && !getName().isEmpty();
 		else if(attribute==PLAYERS)
 			return getPlayers() != null && getPlayers().size() > 0;
+		else if(attribute==CAPACITY)
+				return getCapacity() != null && !getCapacity().isEmpty();
 		else
 			return false;
 	}

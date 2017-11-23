@@ -8,12 +8,14 @@ import java.time.temporal.ChronoField;
 import java.util.Locale;
 
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.evaluation.ActorsEvaluationRule;
+import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.evaluation.CapacityEvaluationRule;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.evaluation.DateEvaluationRule;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.evaluation.DirectorEvaluationRule;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.evaluation.NameEvaluationRule;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.evaluation.PlayersEvaluationRule;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.evaluation.TitleEvaluationRule;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.fusers.ActorsFuserUnion;
+import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.fusers.CapacityFuser;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.fusers.DateFuserVoting;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.fusers.DirectorFuserLongestString;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.fusers.NameFuser;
@@ -77,7 +79,7 @@ public class App
     			
     			strategy.addAttributeFuser(Club.PLAYERS, new PlayersFuser(), new PlayersEvaluationRule());
     			strategy.addAttributeFuser(Club.NAME, new NameFuser(), new NameEvaluationRule());
-    			
+    			strategy.addAttributeFuser(Club.CAPACITY, new CapacityFuser(), new CapacityEvaluationRule());
     			
     			// create the fusion engine
     			DataFusionEngine<Club, Attribute> engine = new DataFusionEngine<>(strategy);

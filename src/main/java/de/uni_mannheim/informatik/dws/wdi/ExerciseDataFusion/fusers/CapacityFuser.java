@@ -6,7 +6,6 @@ import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.model.Club;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.model.Movie;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.model.Player;
 import de.uni_mannheim.informatik.dws.winter.datafusion.AttributeValueFuser;
-import de.uni_mannheim.informatik.dws.winter.datafusion.conflictresolution.string.LongestString;
 import de.uni_mannheim.informatik.dws.winter.datafusion.conflictresolution.string.ShortestString;
 import de.uni_mannheim.informatik.dws.winter.model.Correspondence;
 import de.uni_mannheim.informatik.dws.winter.model.FusedValue;
@@ -15,10 +14,10 @@ import de.uni_mannheim.informatik.dws.winter.model.RecordGroup;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.processing.Processable;
 
-public class NameFuser extends AttributeValueFuser<String, Club, Attribute> {
+public class CapacityFuser extends AttributeValueFuser<String, Club, Attribute> {
 	
-	public NameFuser() {
-		super(new LongestString<Club, Attribute>());
+	public CapacityFuser() {
+		super(new ShortestString<Club, Attribute>());
 	}
 
 	@Override
@@ -28,20 +27,24 @@ public class NameFuser extends AttributeValueFuser<String, Club, Attribute> {
 		FusedValue<String, Club, Attribute> fused = getFusedValue(group, schemaCorrespondences, schemaElement);
 
 		// set the value for the fused record
-		fusedRecord.setName(fused.getValue());
+		if(fused.getValue() != null)
+		{
+			fusedRecord.setCapacity(fused.getValue());
+		}
+	
 
 		// add provenance info
-		fusedRecord.setAttributeProvenance(Club.NAME, fused.getOriginalIds());
+		fusedRecord.setAttributeProvenance(Club.CAPACITY, fused.getOriginalIds());
 	}
 
 	@Override
 	public boolean hasValue(Club record, Correspondence<Attribute, Matchable> correspondence) {
-		return record.hasValue(Club.NAME);
+		return record.hasValue(Club.CAPACITY);
 	}
 
 	@Override
 	protected String getValue(Club record, Correspondence<Attribute, Matchable> correspondence) {
-		return record.getName();
+		return record.getCapacity();
 	}
 
 

@@ -40,6 +40,10 @@ public class ClubXMLFormatter extends XMLFormatter<Club> {
 		club.appendChild(createTextElementWithProvenance("name",
 				record.getName(),
 				record.getMergedAttributeProvenance(Club.NAME), doc));
+		
+		club.appendChild(createTextElementWithProvenance("capacity",
+				record.getCapacity(),
+				record.getMergedAttributeProvenance(Club.CAPACITY), doc));
 
 		//club.appendChild(createPlayersElement(record, doc));
 
