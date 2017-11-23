@@ -11,12 +11,13 @@ import de.uni_mannheim.informatik.dws.winter.similarity.string.TokenizingJaccard
 
 public class CapacityEvaluationRule extends EvaluationRule<Club, Attribute>{
 
+	SimilarityMeasure<String> sim = new TokenizingJaccardSimilarity();
 
 	@Override
 	public boolean isEqual(Club record1, Club record2, Attribute schemaElement) {
 		// the title is correct if all tokens are there, but the order does not
 		// matter
-		return true;
+		return sim.calculate(record1.getCapacity(), record2.getCapacity()) == 1.0;
 	}
 
 	/* (non-Javadoc)
