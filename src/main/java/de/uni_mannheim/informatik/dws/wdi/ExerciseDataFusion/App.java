@@ -58,7 +58,9 @@ public class App
 
     			// Maintain Provenance
     			// Scores (e.g. from rating)
-    			ds1.setScore(1.0);
+    			ds1.setScore(3.0);
+    			ds2.setScore(2.0);
+    			ds3.setScore(1.0);
 
     			//TODO
     			// load correspondences

@@ -23,8 +23,8 @@ import de.uni_mannheim.informatik.dws.winter.model.io.XMLFormatter;
  * 
  */
 public class ClubXMLFormatter extends XMLFormatter<Club> {
-
-	ActorXMLFormatter actorFormatter = new ActorXMLFormatter();
+	
+	PlayerXMLFormatter playerFormatter = new PlayerXMLFormatter();
 
 	@Override
 	public Element createRootElement(Document doc) {
@@ -33,19 +33,36 @@ public class ClubXMLFormatter extends XMLFormatter<Club> {
 
 	@Override
 	public Element createElementFromRecord(Club record, Document doc) {
-		Element club = doc.createElement("clubs");
+		Element club = doc.createElement("club");
 
 		club.appendChild(createTextElement("id", record.getIdentifier(), doc));
 
-		club.appendChild(createTextElement("name",
+		club.appendChild(createTextElementWithProvenance("name",
 				record.getName(),
-				doc));
-		club.appendChild(createTextElement("players",
-				record.getPlayers().toString(),
-				doc));
+				record.getMergedAttributeProvenance(Club.NAME), doc));
+
+		//club.appendChild(createPlayersElement(record, doc));
 
 		return club;
 	}
 
+	protected Element createTextElementWithProvenance(String name,
+			String value, String provenance, Document doc) {
+		Element elem = createTextElement(name, value, doc);
+		elem.setAttribute("provenance", provenance);
+		return elem;
+	}
 
+	protected Element createPlayersElement(Club record, Document doc) {
+		Element playerRoot = playerFormatter.createRootElement(doc);
+		playerRoot.setAttribute("provenance",
+				record.getMergedAttributeProvenance(Club.PLAYERS));
+
+		for (Player a : record.getPlayers()) {
+			playerRoot.appendChild(playerFormatter
+					.createElementFromRecord(a, doc));
+		}
+
+		return playerRoot;
+	}
 }
