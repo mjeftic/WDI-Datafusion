@@ -17,21 +17,28 @@ public class PlayersEvaluationRule extends EvaluationRule<Club, Attribute>{
 	@Override
 	public boolean isEqual(Club record1, Club record2, Attribute schemaElement) {
 		Set<String> players1 = new HashSet<>();
+		
+		if (record2.getPlayers() == null || record1.getPlayers() == null) {
+			return false;
+		}
+		else {
 
-		for (Player a : record1.getPlayers()) {
-			// note: evaluating using the actor's name only suffices for simple
-			// lists
-			// in your project, you should have actor ids which you use here
-			// (and in the identity resolution)
-			players1.add(a.getName());
+			for (Player a : record1.getPlayers()) {
+				// note: evaluating using the actor's name only suffices for simple
+				// lists
+				// in your project, you should have actor ids which you use here
+				// (and in the identity resolution)
+				players1.add(a.getName());
+			}
+
+			Set<String> players2 = new HashSet<>();
+			for (Player a : record2.getPlayers()) {
+				players2.add(a.getName());
+			}
+
+			return players1.containsAll(players2) && players2.containsAll(players1);
 		}
 
-		Set<String> players2 = new HashSet<>();
-		for (Player a : record2.getPlayers()) {
-			players2.add(a.getName());
-		}
-
-		return players1.containsAll(players2) && players2.containsAll(players1);
 	}
 
 	@Override

@@ -15,9 +15,9 @@ import de.uni_mannheim.informatik.dws.winter.model.RecordGroup;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.processing.Processable;
 
-public class NameFuser extends AttributeValueFuser<String, Club, Attribute> {
+public class PlayerNameFuser extends AttributeValueFuser<String, Club, Attribute> {
 	
-	public NameFuser() {
+	public PlayerNameFuser() {
 		super(new LongestString<Club, Attribute>());
 	}
 

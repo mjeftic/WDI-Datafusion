@@ -11,11 +11,19 @@
  */
 package de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.model;
 
+import java.io.Serializable;
 import java.time.LocalDateTime;
+import java.util.Collection;
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
+
+import org.apache.commons.lang3.StringUtils;
+
 import de.uni_mannheim.informatik.dws.winter.model.AbstractRecord;
 import de.uni_mannheim.informatik.dws.winter.model.Matchable;
+import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 
 /**
  * A {@link AbstractRecord} representing a movie.
@@ -23,15 +31,9 @@ import de.uni_mannheim.informatik.dws.winter.model.Matchable;
  * @author Oliver Lehmberg (oli@dwslab.de)
  * 
  */
-public class Player implements Matchable {
+public class Player extends AbstractRecord<Attribute> implements Serializable{
 
-	/*
-	 * example entry <movie> <id>academy_awards_2</id> <title>True Grit</title>
-	 * <director> <name>Joel Coen and Ethan Coen</name> </director> <actors>
-	 * <actor> <name>Jeff Bridges</name> </actor> <actor> <name>Hailee
-	 * Steinfeld</name> </actor> </actors> <date>2010-01-01</date> </movie>
-	 */
-
+	private static final long serialVersionUID = 1L;
 	protected String id;
 	protected String provenance;
 	private String name;
@@ -43,6 +45,15 @@ public class Player implements Matchable {
 	private int height;
 	private int weight;
 	
+	public static final Attribute NAME = new Attribute("name");
+	public static final Attribute BIRTHDATE = new Attribute("brithdate");
+	public static final Attribute NATIONALITY = new Attribute("nationality");
+	public static final Attribute AGE = new Attribute("age");
+	public static final Attribute RATING = new Attribute("rating");
+	public static final Attribute POSITION = new Attribute("position");
+	public static final Attribute HEIGHT = new Attribute("height");
+	public static final Attribute WEIGHT = new Attribute("weight");
+
 
 	public Player(String identifier, String provenance) {
 		id = identifier;
@@ -139,7 +150,11 @@ public class Player implements Matchable {
 		this.weight = weight;
 	}
 
-
+	public void setAttributeProvenance(Attribute attribute,
+			Collection<String> provenance) {
+		this.provenance.put(attribute, provenance);
+	}
+	
 	@Override
 	public String toString() {
 		return String.format("[Player: %s / %s / %s]", getName(),
@@ -171,6 +186,42 @@ public class Player implements Matchable {
 	public String getProvenance() {
 		// TODO Auto-generated method stub
 		return provenance;
+	}
+	public Collection<String> getAttributeProvenance(String attribute) {
+		return provenance.get(attribute);
+	}
+
+	public String getMergedAttributeProvenance(Attribute attribute) {
+		Collection<String> prov = provenance.get(attribute);
+
+		if (prov != null) {
+			return StringUtils.join(prov, "+");
+		} else {
+			return "";
+		}
+	}
+
+
+	@Override
+	public boolean hasValue(Attribute attribute) {
+		if(attribute==NAME)
+			return getName() != null && !getName().isEmpty();
+		else if(attribute==BIRTHDATE)
+			return getBirthdate() != null && !getBirthdate().isEmpty();
+		else if(attribute==AGE)
+				return getAge() != 0;
+		else if(attribute==NATIONALITY)
+			return getNationality() != null && !getNationality().isEmpty();
+		else if(attribute==RATING)
+			return getRating() != 0;
+		else if(attribute==POSITION)
+			return getPosition() != null && !getNationality().isEmpty();
+		else if(attribute==WEIGHT)
+			return getWeight() != 0;
+		else if(attribute==HEIGHT)
+			return getHeight() != 0;
+		else
+		return false;
 	}
 	
 	

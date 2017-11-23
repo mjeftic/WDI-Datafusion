@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clubs>
+  <club>
+  <id>fifa17_20461+fut17_20567+stadiums_20150302_137</id>
+  <name provenance="stadiums_20150302_137">Oldham Athletic</name>
+  <capacity provenance="stadiums_20150302_137">10638</capacity>
+  </club>
+  <club>
+  <id>fifa17_20280+fut17_20244+stadiums_20150302_27</id>
+  <name provenance="stadiums_20150302_27">Cardiff City</name>
+  <capacity provenance="stadiums_20150302_27">26828</capacity>
+  </club>
+  <club>
+  <id>fifa17_20000+fut17_20001+stadiums_20150302_100</id>
+  <name provenance="stadiums_20150302_100">Real Madrid</name>
+  <capacity provenance="stadiums_20150302_100">85454</capacity>
+  </club>
+  <club>
+  <id>fifa17_20249+fut17_20221+stadiums_20150302_30</id>
+  <name provenance="fifa17_20249">Derby County</name>
+  <capacity provenance="stadiums_20150302_30">33597</capacity>
+  </club>
+  <club>
+    <id>fifa17_20109+fut17_20090</id>
+    <name provenance="fifa17_20109">Panathinaikos</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20077+fut17_20076+stadiums_20150302_73</id>
+    <name provenance="stadiums_20150302_73">Hertha BSC</name>
+    <capacity provenance="stadiums_20150302_73">74244</capacity>
+  </club>
+  <club>
+    <id>fifa17_20301+fut17_20297+stadiums_20150302_76</id>
+    <name provenance="fifa17_20301">1. FC Nürnberg</name>
+    <capacity provenance="stadiums_20150302_76">50000</capacity>
+  </club>
+  <club>
+  <id>fifa17_20080+fut17_20084+stadiums_20150302_15</id>
+  <name provenance="stadiums_20150302_15">Sunderland</name>
+  <capacity provenance="stadiums_20150302_15">48707</capacity>
+  </club>
+  <club>
+  <id>fifa17_20089+fut17_20092+stadiums_20150302_79</id>
+  <name provenance="fifa17_20089">Werder Bremen</name>
+  <capacity provenance="stadiums_20150302_79">42100</capacity>
+  </club>
+  <club>
+    <id>fifa17_20527+fut17_20500+stadiums_20150302_37</id>
+    <name provenance="stadiums_20150302_37">Millwall</name>
+    <capacity provenance="stadiums_20150302_37">20146</capacity>
+  </club>
+  <club>
+    <id>fifa17_20031+fut17_20063+stadiums_20150302_84</id>
+    <name provenance="stadiums_20150302_84">1. FC Köln</name>
+    <capacity provenance="stadiums_20150302_84">50000</capacity>
+  </club>
+  <club>
+    <id>fifa17_20107+fut17_20108+stadiums_20150302_32</id>
+    <name provenance="fifa17_20107">Hull City</name>
+    <capacity provenance="stadiums_20150302_32">25404</capacity>
+  </club>
+  <club>
+    <id>fifa17_20017+fut17_20030+stadiums_20150302_6</id>
+    <name provenance="fifa17_20017">Everton</name>
+    <capacity provenance="stadiums_20150302_6">40157</capacity>
+  </club>
+  <club>
+    <id>fifa17_20202+fut17_20181+stadiums_20150302_34</id>
+    <name provenance="fifa17_20202">Leeds United</name>
+    <capacity provenance="stadiums_20150302_34">39460</capacity>
+  </club>
+  <club>
+  <id>fifa17_20026+fut17_20016+stadiums_20150302_29</id>
+  <name provenance="fifa17_20026">Crystal Palace</name>
+  <capacity provenance="stadiums_20150302_29">26309</capacity>
+  </club>
+  <club>
+  <id>fifa17_20585+fut17_20534</id>
+  <name provenance="fifa17_20585">Tromsø IL</name>
+  <capacity provenance=""/>
+  </club>
+  <club>
+  <id>fifa17_20009+fut17_20011+stadiums_20150302_88</id>
+  <name provenance="fifa17_20009">Atlético Madrid</name>
+  <capacity provenance="stadiums_20150302_88">54851</capacity>
+  </club>
+  <club>
+  <id>fifa17_20067+fut17_20080+stadiums_20150302_43</id>
+  <name provenance="fifa17_20067">Watford</name>
+  <capacity provenance="stadiums_20150302_43">23500</capacity>
+  </club>
+</clubs>
