@@ -15,53 +15,72 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeFormatterBuilder;
 import java.time.temporal.ChronoField;
+import java.util.List;
 import java.util.Locale;
 
-import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 
+import de.uni_mannheim.informatik.dws.winter.model.DataSet;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.model.io.XMLMatchableReader;
 
 /**
- * A {@link XMLMatchableReader} for {@link Actor}s.
+ * A {@link XMLMatchableReader} for {@link Movie}s.
  * 
  * @author Oliver Lehmberg (oli@dwslab.de)
  * 
  */
-public class PlayerXMLReader extends XMLMatchableReader<Player, Attribute> {
+public class PlayerXMLReader extends XMLMatchableReader<Player, Attribute>  {
 
+	/* (non-Javadoc)
+	 * @see de.uni_mannheim.informatik.wdi.model.io.XMLMatchableReader#initialiseDataset(de.uni_mannheim.informatik.wdi.model.DataSet)
+	 */
+	@Override
+	protected void initialiseDataset(DataSet<Player, Attribute> dataset) {
+		super.initialiseDataset(dataset);
+		
+		dataset.addAttribute(Player.NAME);
+		dataset.addAttribute(Player.BIRTHDATE);
+		dataset.addAttribute(Player.AGE);
+		dataset.addAttribute(Player.HEIGHT);
+		dataset.addAttribute(Player.NATIONALITY);
+		dataset.addAttribute(Player.POSITION);
+		dataset.addAttribute(Player.WEIGHT);
+		dataset.addAttribute(Player.RATING);
+		
+	}
+	
 	@Override
 	public Player createModelFromElement(Node node, String provenanceInfo) {
-		
 		String id = getValueFromChildElement(node, "id");
 
 		// create the object with id and provenance information
-		Player player = new Player(id, provenanceInfo);
+				Player player = new Player(id, provenanceInfo);
+				
+				// fill the attributes
+				player.setName(getValueFromChildElement(node, "name"));
+				
+				player.setBirthdate(getValueFromChildElement(node, "brithdate"));
+				player.setAge(Integer.parseInt(getValueFromChildElement(node, "age")));
+				try {
+					player.setRating(Integer.parseInt(getValueFromChildElement(node, "rating")));
+				} catch (Exception e) {
+					
+				}
+				try {
+					player.setHeight(Integer.parseInt(getValueFromChildElement(node, "height")));
+				} catch (Exception e) {
+				}
+				
+				try {
+					player.setWeight(Integer.parseInt(getValueFromChildElement(node, "weight")));
+				} catch (Exception e) {
+					
+				}
+				
+				player.setNationality(getValueFromChildElement(node, "nationality"));
+				player.setPosition(getValueFromChildElement(node, "position"));
 		
-		// fill the attributes
-		player.setName(getValueFromChildElement(node, "name"));
-		
-		player.setBirthdate(getValueFromChildElement(node, "brithdate"));
-		player.setAge(Integer.parseInt(getValueFromChildElement(node, "age")));
-		try {
-			player.setRating(Integer.parseInt(getValueFromChildElement(node, "rating")));
-		} catch (Exception e) {
-			
-		}
-		try {
-			player.setHeight(Integer.parseInt(getValueFromChildElement(node, "height")));
-		} catch (Exception e) {
-		}
-		
-		try {
-			player.setWeight(Integer.parseInt(getValueFromChildElement(node, "weight")));
-		} catch (Exception e) {
-			
-		}
-		
-		player.setNationality(getValueFromChildElement(node, "nationality"));
-		player.setPosition(getValueFromChildElement(node, "position"));
 
 		return player;
 	}

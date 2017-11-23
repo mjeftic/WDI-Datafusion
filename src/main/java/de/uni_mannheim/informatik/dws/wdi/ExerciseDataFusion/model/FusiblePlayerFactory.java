@@ -11,8 +11,8 @@ import de.uni_mannheim.informatik.dws.winter.model.RecordGroup;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 
 public class FusiblePlayerFactory implements FusibleFactory<Player, Attribute> {
-	 
-	
+
+
 	@Override
 	public Player createInstanceForFusion(RecordGroup<Player, Attribute> cluster) {
 

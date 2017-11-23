@@ -12,6 +12,7 @@ import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.evaluation.Capacity
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.evaluation.DateEvaluationRule;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.evaluation.DirectorEvaluationRule;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.evaluation.NameEvaluationRule;
+import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.evaluation.PlayerNameEvaluationRule;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.evaluation.PlayersEvaluationRule;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.evaluation.TitleEvaluationRule;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.fusers.ActorsFuserUnion;
@@ -19,12 +20,14 @@ import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.fusers.CapacityFuse
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.fusers.DateFuserVoting;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.fusers.DirectorFuserLongestString;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.fusers.NameFuser;
+import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.fusers.PlayerNameFuser;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.fusers.PlayersFuser;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.fusers.TitleFuserShortestString;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.model.Player;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.model.PlayerXMLFormatter;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.model.PlayerXMLReader;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.model.FusiblePlayerFactory;
+import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.model.Club;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.model.FusibleMovieFactory;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.model.Movie;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.model.MovieXMLFormatter;
@@ -45,16 +48,16 @@ public class App_player
     {
     	// Load the Data into FusibleDataSet
     			FusibleDataSet<Player, Attribute> ds1 = new FusibleHashedDataSet<>();
-    			new PlayerXMLReader().loadFromXML(new File("data/input/fifa17.xml"), "/stadiums/stadium/Players/Player/players/player", ds1);
+    			new PlayerXMLReader().loadFromXML(new File("data/input/fifa17.xml"),"/stadiums/stadium/clubs/club/players/player", ds1);
     			ds1.printDataSetDensityReport();
     		
 
     			FusibleDataSet<Player, Attribute> ds2 = new FusibleHashedDataSet<>();
-    			new PlayerXMLReader().loadFromXML(new File("data/input/fut17.xml"), "/stadiums/stadium/Players/Player/players/player", ds2);
+    			new PlayerXMLReader().loadFromXML(new File("data/input/fut17.xml"), "/stadiums/stadium/clubs/club/players/player", ds2);
     			ds2.printDataSetDensityReport();
 
     			FusibleDataSet<Player, Attribute> ds3 = new FusibleHashedDataSet<>();
-    			new PlayerXMLReader().loadFromXML(new File("data/input/transfermarkt.xml"), "/stadiums/stadium/Players/Player/players/player", ds3);
+    			new PlayerXMLReader().loadFromXML(new File("data/input/transfermarkt.xml"), "/stadiums/stadium/clubs/club/players/player", ds3);
     			ds3.printDataSetDensityReport();
     			
 
@@ -67,24 +70,26 @@ public class App_player
     			//TODO
     			// load correspondences
     			CorrespondenceSet<Player, Attribute> correspondences = new CorrespondenceSet<>();
-    			correspondences.loadCorrespondences(new File("data/correspondences/fut17_2_fifa17_correspondences.csv"), ds1, ds2);
-    			correspondences.loadCorrespondences(new File("data/correspondences/fifa17_2_trans_correspondences.csv"), ds1, ds3);
-    			correspondences.loadCorrespondences(new File("data/correspondences/fut17_2_trans_correspondences.csv"), ds2, ds3);    			
+    			correspondences.loadCorrespondences(new File("data/correspondences/fifa17_2_fut17_correspondences.csv"), ds1, ds2);
+    			//correspondences.loadCorrespondences(new File("data/correspondences/fifa17_2_trans_correspondences.csv"), ds1, ds3);
+    			//correspondences.loadCorrespondences(new File("data/correspondences/fut17_2_trans_correspondences.csv"), ds2, ds3);    			
     			// write group size distribution
     			correspondences.printGroupSizeDistribution();
 
     			// define the fusion strategy
     			DataFusionStrategy<Player, Attribute> strategy = new DataFusionStrategy<>(new FusiblePlayerFactory());
     			
+    			
     			// add attribute fusers
     			strategy.addAttributeFuser(Player.NAME, new PlayerNameFuser(), new PlayerNameEvaluationRule());
-    			strategy.addAttributeFuser(Player.BIRTHDATE, new PlayerBirthdateFuser(), new PlayerBirthdateEvaluationRule());
+    			/*	strategy.addAttributeFuser(Player.BIRTHDATE, new PlayerBirthdateFuser(), new PlayerBirthdateEvaluationRule());
     			strategy.addAttributeFuser(Player.NATIONALITY, new PlayerNationalityFuser(), new PlayerNationalityEvaluationRule());
     			strategy.addAttributeFuser(Player.AGE, new PlayerAgeFuser(), new PlayerAgeRule());
     			strategy.addAttributeFuser(Player.RATING, new PlayerRating(), new PlayerRatingEvaluationRule());
     			strategy.addAttributeFuser(Player.POSITION, new PlayerPosition(), new PlayerPositionEvaluationRule());
     			strategy.addAttributeFuser(Player.HEIGHT, new PlayerHeight(), new PlayerHeightEvaluationRule());
-    			strategy.addAttributeFuser(Player.WEIGHT, new PlayerWeight(), new PlayerWeightEvaluationRule());
+    			strategy.addAttributeFuser(Player.WEIGHT, new PlayerWeight(), new PlayerWeightEvaluationRule());*/
+    		
     			
     			// create the fusion engine
     			DataFusionEngine<Player, Attribute> engine = new DataFusionEngine<>(strategy);
@@ -100,7 +105,7 @@ public class App_player
 
     			// load the gold standard
     			DataSet<Player, Attribute> gs = new FusibleHashedDataSet<>();
-    			new PlayerXMLReader().loadFromXML(new File("data/goldstandard/gs_Player.xml"), "/Players/Player", gs);
+    			//new PlayerXMLReader().loadFromXML(new File("data/goldstandard/gs_Player.xml"), "/Players/Player", gs);
     			//new PlayerXMLReader().loadFromXML(new File("data/goldstandard/gs_Player_stadium_2_fifa17.csv"),"/stadiums/stadium/Players/Player", gs);
     			
     			// evaluate

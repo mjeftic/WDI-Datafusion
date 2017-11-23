@@ -35,7 +35,6 @@ public class Player extends AbstractRecord<Attribute> implements Serializable{
 
 	private static final long serialVersionUID = 1L;
 	protected String id;
-	protected String provenance;
 	private String name;
 	private String brithdate;
 	private String nationality;
@@ -56,8 +55,7 @@ public class Player extends AbstractRecord<Attribute> implements Serializable{
 
 
 	public Player(String identifier, String provenance) {
-		id = identifier;
-		this.provenance = provenance;
+		super(identifier, provenance);
 	}
 
 
@@ -150,10 +148,6 @@ public class Player extends AbstractRecord<Attribute> implements Serializable{
 		this.weight = weight;
 	}
 
-	public void setAttributeProvenance(Attribute attribute,
-			Collection<String> provenance) {
-		this.provenance.put(attribute, provenance);
-	}
 	
 	@Override
 	public String toString() {
@@ -182,11 +176,22 @@ public class Player extends AbstractRecord<Attribute> implements Serializable{
 	}
 
 
-	@Override
-	public String getProvenance() {
-		// TODO Auto-generated method stub
-		return provenance;
+	private Map<Attribute, Collection<String>> provenance = new HashMap<>();
+	private Collection<String> recordProvenance;
+
+	public void setRecordProvenance(Collection<String> provenance) {
+		recordProvenance = provenance;
 	}
+
+	public Collection<String> getRecordProvenance() {
+		return recordProvenance;
+	}
+
+	public void setAttributeProvenance(Attribute attribute,
+			Collection<String> provenance) {
+		this.provenance.put(attribute, provenance);
+	}
+
 	public Collection<String> getAttributeProvenance(String attribute) {
 		return provenance.get(attribute);
 	}
@@ -200,7 +205,6 @@ public class Player extends AbstractRecord<Attribute> implements Serializable{
 			return "";
 		}
 	}
-
 
 	@Override
 	public boolean hasValue(Attribute attribute) {
