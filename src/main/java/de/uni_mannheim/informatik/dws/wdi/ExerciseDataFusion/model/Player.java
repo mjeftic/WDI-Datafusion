@@ -34,7 +34,6 @@ import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 public class Player extends AbstractRecord<Attribute> implements Serializable{
 
 	private static final long serialVersionUID = 1L;
-	protected String id;
 	private String name;
 	private String brithdate;
 	private String nationality;
