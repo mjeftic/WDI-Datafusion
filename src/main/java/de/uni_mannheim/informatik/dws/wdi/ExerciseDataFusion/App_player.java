@@ -12,7 +12,9 @@ import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.evaluation.Capacity
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.evaluation.DateEvaluationRule;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.evaluation.DirectorEvaluationRule;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.evaluation.NameEvaluationRule;
+import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.evaluation.PlayerBirthdateEvaluationRule;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.evaluation.PlayerNameEvaluationRule;
+import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.evaluation.PlayerNationalityEvaluationRule;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.evaluation.PlayersEvaluationRule;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.evaluation.TitleEvaluationRule;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.fusers.ActorsFuserUnion;
@@ -20,7 +22,9 @@ import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.fusers.CapacityFuse
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.fusers.DateFuserVoting;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.fusers.DirectorFuserLongestString;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.fusers.NameFuser;
+import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.fusers.PlayerBirthdateFuser;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.fusers.PlayerNameFuser;
+import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.fusers.PlayerNationalityFuser;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.fusers.PlayersFuser;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.fusers.TitleFuserShortestString;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.model.Player;
@@ -82,9 +86,9 @@ public class App_player
     			
     			// add attribute fusers
     			strategy.addAttributeFuser(Player.NAME, new PlayerNameFuser(), new PlayerNameEvaluationRule());
-    			/*	strategy.addAttributeFuser(Player.BIRTHDATE, new PlayerBirthdateFuser(), new PlayerBirthdateEvaluationRule());
+    			strategy.addAttributeFuser(Player.BIRTHDATE, new PlayerBirthdateFuser(), new PlayerBirthdateEvaluationRule());
     			strategy.addAttributeFuser(Player.NATIONALITY, new PlayerNationalityFuser(), new PlayerNationalityEvaluationRule());
-    			strategy.addAttributeFuser(Player.AGE, new PlayerAgeFuser(), new PlayerAgeRule());
+    			/*strategy.addAttributeFuser(Player.AGE, new PlayerAgeFuser(), new PlayerAgeRule());
     			strategy.addAttributeFuser(Player.RATING, new PlayerRating(), new PlayerRatingEvaluationRule());
     			strategy.addAttributeFuser(Player.POSITION, new PlayerPosition(), new PlayerPositionEvaluationRule());
     			strategy.addAttributeFuser(Player.HEIGHT, new PlayerHeight(), new PlayerHeightEvaluationRule());
