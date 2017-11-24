@@ -40,11 +40,11 @@ public class PlayerCSVFormatter extends CSVDataSetFormatter<Player, Attribute> {
 				record.getName(),
 				record.getNationality(),
 				record.getBirthdate(),
-				Integer.toString(record.getAge()),
-				Integer.toString(record.getRating()),
+				Double.toString(record.getAge()),
+				Double.toString(record.getRating()),
 				record.getPosition(),
-				Integer.toString(record.getHeight()),
-				Integer.toString(record.getWeight()),
+				Double.toString(record.getHeight()),
+				Double.toString(record.getWeight()),
 		};
 	}
 

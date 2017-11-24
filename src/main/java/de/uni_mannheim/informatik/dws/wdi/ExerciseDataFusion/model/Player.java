@@ -37,11 +37,11 @@ public class Player extends AbstractRecord<Attribute> implements Serializable{
 	private String name;
 	private String brithdate;
 	private String nationality;
-	private int age;
-	private int rating;
+	private Double age;
+	private Double rating;
 	private String position;
-	private int height;
-	private int weight;
+	private Double height;
+	private Double weight;
 	
 	public static final Attribute NAME = new Attribute("name");
 	public static final Attribute BIRTHDATE = new Attribute("brithdate");
@@ -98,24 +98,32 @@ public class Player extends AbstractRecord<Attribute> implements Serializable{
 	}
 
 
-	public int getAge() {
+	public Double getAge() {
 		return age;
 	}
 
-
-	public void setAge(int age) {
+	public void setAge(Double age) {
 		this.age = age;
+		
 	}
 
 
-	public int getRating() {
+	public void setRating(Double rating) {
+		this.rating = rating;
+		
+	}
+
+
+	public void setHeight(Double height) {
+		this.height = height;
+		
+	}
+
+
+	public Double getRating() {
 		return rating;
 	}
 
-
-	public void setRating(int rating) {
-		this.rating = rating;
-	}
 
 
 	public String getPosition() {
@@ -128,22 +136,18 @@ public class Player extends AbstractRecord<Attribute> implements Serializable{
 	}
 
 
-	public int getHeight() {
+	public Double getHeight() {
 		return height;
 	}
 
 
-	public void setHeight(int height) {
-		this.height = height;
-	}
 
-
-	public int getWeight() {
+	public Double getWeight() {
 		return weight;
 	}
 
 
-	public void setWeight(int weight) {
+	public void setWeight(Double weight) {
 		this.weight = weight;
 	}
 
@@ -216,16 +220,19 @@ public class Player extends AbstractRecord<Attribute> implements Serializable{
 		else if(attribute==NATIONALITY)
 			return getNationality() != null && !getNationality().isEmpty();
 		else if(attribute==RATING)
-			return getRating() != 0;
+			return getRating() != null && !getRating().isNaN();
 		else if(attribute==POSITION)
 			return getPosition() != null && !getNationality().isEmpty();
 		else if(attribute==WEIGHT)
-			return getWeight() != 0;
+			return getWeight() != null && !getWeight().isNaN();
 		else if(attribute==HEIGHT)
-			return getHeight() != 0;
+			return getHeight() != null && !getHeight().isNaN();
 		else
 		return false;
 	}
+
+
+
 	
 	
 	

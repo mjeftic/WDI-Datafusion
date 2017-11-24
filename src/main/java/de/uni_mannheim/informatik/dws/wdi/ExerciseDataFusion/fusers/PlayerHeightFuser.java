@@ -12,9 +12,9 @@ import de.uni_mannheim.informatik.dws.winter.model.RecordGroup;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.processing.Processable;
 
-public class PlayerAgeFuser extends AttributeValueFuser<Double, Player, Attribute> {
+public class PlayerHeightFuser extends AttributeValueFuser<Double, Player, Attribute> {
 	
-	public PlayerAgeFuser() {
+	public PlayerHeightFuser() {
 		super(new Average<Player, Attribute>());
 	}
 
@@ -26,20 +26,20 @@ public class PlayerAgeFuser extends AttributeValueFuser<Double, Player, Attribut
 		FusedValue<Double, Player, Attribute> fused = getFusedValue(group, schemaCorrespondences, schemaElement);
 
 		// set the value for the fused record
-		fusedRecord.setAge(fused.getValue());
+		fusedRecord.setHeight(fused.getValue());
 
 		// add provenance info
-		fusedRecord.setAttributeProvenance(Player.AGE, fused.getOriginalIds());
+		fusedRecord.setAttributeProvenance(Player.HEIGHT, fused.getOriginalIds());
 	}
 
 	@Override
 	public boolean hasValue(Player record, Correspondence<Attribute, Matchable> correspondence) {
-		return record.hasValue(Player.AGE);
+		return record.hasValue(Player.HEIGHT);
 	}
 
 	@Override
 	protected Double getValue(Player record, Correspondence<Attribute, Matchable> correspondence) {
-		double t = (double) record.getAge();
+		double t = (double) record.getHeight();
 		return t;
 	}
 }

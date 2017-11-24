@@ -37,10 +37,24 @@ public class PlayerXMLFormatter extends XMLFormatter<Player> {
 		player.appendChild(createTextElement("brithdate", record.getBirthdate(), doc));
 		player.appendChild(createTextElement("nationality", record.getNationality(), doc));
 		player.appendChild(createTextElement("position", record.getPosition(), doc));
-		player.appendChild(createTextElement("age", Integer.toString(record.getAge()), doc));
-		player.appendChild(createTextElement("height", Integer.toString(record.getHeight()), doc));
-		player.appendChild(createTextElement("weight", Integer.toString(record.getWeight()), doc));
-		player.appendChild(createTextElement("rating", Integer.toString(record.getRating()), doc));
+		player.appendChild(createTextElement("age", Double.toString(record.getAge()), doc));
+		if(record.getHeight() != null)
+		{
+			player.appendChild(createTextElement("height", Double.toString(record.getHeight()), doc));
+		}
+		
+		if(record.getWeight() != null)
+		{
+			player.appendChild(createTextElement("weight", Double.toString(record.getWeight()), doc));
+
+		}
+		
+		if(record.getRating() != null)
+		{
+			player.appendChild(createTextElement("rating", Double.toString(record.getRating()), doc));
+
+		}
+		
 
 		return player;
 	}
