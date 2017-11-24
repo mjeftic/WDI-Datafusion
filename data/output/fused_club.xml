@@ -1,0 +1,2868 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clubs>
+  <club>
+    <id>fifa17_20521+fut17_20598</id>
+    <name provenance="fifa17_20521">Wisła Płock</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20318+fut17_20285</id>
+    <name provenance="fifa17_20318">Rosenborg BK</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20615+fut17_20549</id>
+    <name provenance="fifa17_20615">Stevenage</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20428+fut17_20391</id>
+    <name provenance="fifa17_20428">Jeju United</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20109+fut17_20090</id>
+    <name provenance="fifa17_20109">Panathinaikos</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20077+fut17_20076+stadiums_20150302_73</id>
+    <name provenance="stadiums_20150302_73">Hertha BSC</name>
+    <capacity provenance="stadiums_20150302_73">74244</capacity>
+  </club>
+  <club>
+    <id>fifa17_20301+fut17_20297+stadiums_20150302_76</id>
+    <name provenance="fifa17_20301">1. FC Nürnberg</name>
+    <capacity provenance="stadiums_20150302_76">50000</capacity>
+  </club>
+  <club>
+    <id>fifa17_20211+fut17_20198</id>
+    <name provenance="fifa17_20211">Marítimo</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20424+fut17_20398</id>
+    <name provenance="fifa17_20424">Lechia Gdańsk</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20527+fut17_20500+stadiums_20150302_37</id>
+    <name provenance="stadiums_20150302_37">Millwall</name>
+    <capacity provenance="stadiums_20150302_37">20146</capacity>
+  </club>
+  <club>
+    <id>fifa17_20526+fut17_20489</id>
+    <name provenance="fifa17_20526">Leyton Orient</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20304+fut17_20149</id>
+    <name provenance="fifa17_20304">Philadelphia</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20520+fut17_20485</id>
+    <name provenance="fifa17_20520">Zagłębie Lubin</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20202+fut17_20181+stadiums_20150302_34</id>
+    <name provenance="fifa17_20202">Leeds United</name>
+    <capacity provenance="stadiums_20150302_34">39460</capacity>
+  </club>
+  <club>
+    <id>fifa17_20204+fut17_20180</id>
+    <name provenance="fifa17_20204">Frosinone</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20200+fut17_20184</id>
+    <name provenance="fifa17_20200">Huddersfield</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20303+fut17_20252</id>
+    <name provenance="fifa17_20303">RB Salzburg</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20201+fut17_20183</id>
+    <name provenance="fifa17_20201">Konyaspor</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20569+fut17_20492+stadiums_20150302_143</id>
+    <name provenance="stadiums_20150302_143">Bradford City</name>
+    <capacity provenance="stadiums_20150302_143">25136</capacity>
+  </club>
+  <club>
+    <id>fifa17_20529+fut17_20477</id>
+    <name provenance="fifa17_20529">Sheffield Utd</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20300+fut17_20383</id>
+    <name provenance="fifa17_20300">Adanaspor</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20421+fut17_20372</id>
+    <name provenance="fifa17_20421">Le Havre AC</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20329+fut17_20291</id>
+    <name provenance="fifa17_20329">Krylya Sovetov</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20316+fut17_20174</id>
+    <name provenance="fifa17_20316">Junior</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20502+fut17_20219</id>
+    <name provenance="fifa17_20502">Aalborg BK</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20367+fut17_20299+stadiums_20150302_85</id>
+    <name provenance="fifa17_20367">FC St. Pauli</name>
+    <capacity provenance="stadiums_20150302_85">24487</capacity>
+  </club>
+  <club>
+    <id>fifa17_20522+fut17_20332</id>
+    <name provenance="fifa17_20522">HJK Helsinki</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20224+fut17_20196</id>
+    <name provenance="fifa17_20224">Cruz Azul</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20420+fut17_20368</id>
+    <name provenance="fifa17_20420">Greuther Fürth</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20512+fut17_20430</id>
+    <name provenance="fifa17_20512">Port Vale</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20312+fut17_20260</id>
+    <name provenance="fifa17_20312">Arouca</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20008+fut17_20005+stadiums_20150302_9</id>
+    <name provenance="stadiums_20150302_9">Manchester City</name>
+    <capacity provenance="stadiums_20150302_9">47405</capacity>
+  </club>
+  <club>
+    <id>fifa17_20436+fut17_20390</id>
+    <name provenance="fifa17_20436">Waasl. Beveren</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20309+fut17_20243</id>
+    <name provenance="fifa17_20309">Girona CF</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20319+fut17_20268</id>
+    <name provenance="fifa17_20319">Real Zaragoza</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20504+fut17_20460</id>
+    <name provenance="fifa17_20504">Rotherham Utd</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20128+fut17_20140+stadiums_20150302_72</id>
+    <name provenance="fifa17_20128">Hannover 96</name>
+    <capacity provenance="stadiums_20150302_72">49000</capacity>
+  </club>
+  <club>
+    <id>fifa17_20407+fut17_20212</id>
+    <name provenance="fifa17_20407">CD O'Higgins</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20595+fut17_20591+stadiums_20150302_23</id>
+    <name provenance="fifa17_20595">Blackpool</name>
+    <capacity provenance="stadiums_20150302_23">16220</capacity>
+  </club>
+  <club>
+    <id>fifa17_20306+fut17_20366</id>
+    <name provenance="fifa17_20306">CD Tenerife</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20189+fut17_20306</id>
+    <name provenance="fifa17_20189">Monarcas Morelia</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20621+fut17_20572</id>
+    <name provenance="fifa17_20621">Barnet</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20215+fut17_20161</id>
+    <name provenance="fifa17_20215">1860 München</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20511+fut17_20420</id>
+    <name provenance="fifa17_20511">Burton Albion</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20217+fut17_20286</id>
+    <name provenance="fifa17_20217">NY Red Bulls</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20623+fut17_20574</id>
+    <name provenance="fifa17_20623">Hartlepool</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20094+fut17_20346</id>
+    <name provenance="fifa17_20094">Chicago Fire</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20461+fut17_20567+stadiums_20150302_137</id>
+    <name provenance="stadiums_20150302_137">Oldham Athletic</name>
+    <capacity provenance="stadiums_20150302_137">10638</capacity>
+  </club>
+  <club>
+    <id>fifa17_20196+fut17_20216</id>
+    <name provenance="fifa17_20196">Dijon FCO</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20409+fut17_20348</id>
+    <name provenance="fifa17_20409">Sint-Truiden</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20523+fut17_20347</id>
+    <name provenance="fifa17_20523">Śląsk Wrocław</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20212+fut17_20162</id>
+    <name provenance="fifa17_20212">FC Seoul</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20311+fut17_20288</id>
+    <name provenance="fifa17_20311">Lech Poznań</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20411+fut17_20393</id>
+    <name provenance="fifa17_20411">Brøndby IF</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20435+fut17_20387</id>
+    <name provenance="fifa17_20435">Bolton</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20610+fut17_20538</id>
+    <name provenance="fifa17_20610">Fortaleza FC</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20310+fut17_20289</id>
+    <name provenance="fifa17_20310">Kawasaki Front.</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20437+fut17_20384</id>
+    <name provenance="fifa17_20437">Pohang Steelers</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20302+fut17_20237</id>
+    <name provenance="fifa17_20302">Gaziantepspor</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20280+fut17_20244+stadiums_20150302_27</id>
+    <name provenance="stadiums_20150302_27">Cardiff City</name>
+    <capacity provenance="stadiums_20150302_27">26828</capacity>
+  </club>
+  <club>
+    <id>fifa17_20439+fut17_20382</id>
+    <name provenance="fifa17_20439">CD Antofagasta</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20290+fut17_20303</id>
+    <name provenance="fifa17_20290">Gamba Osaka</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20118+fut17_20068</id>
+    <name provenance="fifa17_20118">Colorado Rapids</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20110+fut17_20069</id>
+    <name provenance="fifa17_20110">Montreal Impact</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20440+fut17_20381</id>
+    <name provenance="fut17_20381">112487</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20514+fut17_20412</id>
+    <name provenance="fifa17_20514">Aarhus GF</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20518+fut17_20388</id>
+    <name provenance="fifa17_20518">Royal Mouscron</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20398+fut17_20521</id>
+    <name provenance="fifa17_20398">Vegalta Sendai</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20538+fut17_20461</id>
+    <name provenance="fifa17_20538">Valenciennes FC</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20415+fut17_20458</id>
+    <name provenance="fifa17_20415">Hamilton</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20553+fut17_20373</id>
+    <name provenance="fifa17_20553">Ventforet Kofu</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20417+fut17_20453</id>
+    <name provenance="fut17_20453">112713</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20239+fut17_20189</id>
+    <name provenance="fifa17_20239">Sanfrecce Hiroshima</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20613+fut17_20596</id>
+    <name provenance="fifa17_20613">Cheltenham Town</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20442+fut17_20378</id>
+    <name provenance="fifa17_20442">Avellino</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20315+fut17_20491</id>
+    <name provenance="fifa17_20315">Stade Lavallois</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20625+fut17_20593</id>
+    <name provenance="fifa17_20625">Gefle IF</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20404+fut17_20282</id>
+    <name provenance="fifa17_20404">Moreirense</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20000+fut17_20001+stadiums_20150302_100</id>
+    <name provenance="stadiums_20150302_100">Real Madrid</name>
+    <capacity provenance="stadiums_20150302_100">85454</capacity>
+  </club>
+  <club>
+    <id>fifa17_20405+fut17_20202</id>
+    <name provenance="fifa17_20405">Estoril Praia</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20423+fut17_20294</id>
+    <name provenance="fifa17_20423">Houston Dynamo</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20508+fut17_20475</id>
+    <name provenance="fifa17_20508">Odense BK</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20513+fut17_20361</id>
+    <name provenance="fifa17_20513">Esbjerg fB</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20100+fut17_20159</id>
+    <name provenance="fifa17_20100">SC Braga</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20540+fut17_20487+stadiums_20150302_58</id>
+    <name provenance="stadiums_20150302_58">Kilmarnock</name>
+    <capacity provenance="stadiums_20150302_58">18128</capacity>
+  </club>
+  <club>
+    <id>fifa17_20617+fut17_20587</id>
+    <name provenance="fifa17_20617">Dundalk</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20427+fut17_20482</id>
+    <name provenance="fifa17_20427">La Equidad</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20348+fut17_20296</id>
+    <name provenance="fifa17_20348">G. La Plata</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20330+fut17_20263</id>
+    <name provenance="fifa17_20330">IFK Norrköping</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20225+fut17_20152</id>
+    <name provenance="fifa17_20225">SC Bastia</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20524+fut17_20535</id>
+    <name provenance="fifa17_20524">Aalesunds FK</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20213+fut17_20251</id>
+    <name provenance="fifa17_20213">BSC Young Boys</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20611+fut17_20568</id>
+    <name provenance="fifa17_20611">Exeter City</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20519+fut17_20442</id>
+    <name provenance="fut17_20442">112092</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20396+fut17_20410</id>
+    <name provenance="fifa17_20396">Tondela</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20197+fut17_20249</id>
+    <name provenance="fifa17_20197">Brighton</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20515+fut17_20566</id>
+    <name provenance="fifa17_20515">Östersunds FK</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20627+fut17_20599</id>
+    <name provenance="fifa17_20627">Falkenbergs FF</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20064+fut17_20049+stadiums_20150302_36</id>
+    <name provenance="stadiums_20150302_36">Middlesbrough</name>
+    <capacity provenance="stadiums_20150302_36">34988</capacity>
+  </club>
+  <club>
+    <id>fifa17_20383+fut17_20228+stadiums_20150302_54</id>
+    <name provenance="stadiums_20150302_54">Rangers</name>
+    <capacity provenance="stadiums_20150302_54">51082</capacity>
+  </club>
+  <club>
+    <id>fifa17_20532+fut17_20586</id>
+    <name provenance="fifa17_20532">Crawley Town</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20496+fut17_20516</id>
+    <name provenance="fifa17_20496">Sparta R'dam</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20560+fut17_20513+stadiums_20150302_141</id>
+    <name provenance="fifa17_20560">Swindon Town</name>
+    <capacity provenance="stadiums_20150302_141">15728</capacity>
+  </club>
+  <club>
+    <id>fifa17_20116+fut17_20099</id>
+    <name provenance="fifa17_20116">Cagliari</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20323+fut17_20279</id>
+    <name provenance="fifa17_20323">Puebla</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20444+fut17_20397</id>
+    <name provenance="fifa17_20444">Aberdeen</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20340+fut17_20280</id>
+    <name provenance="fifa17_20340">FC Tokyo</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20506+fut17_20370</id>
+    <name provenance="fifa17_20506">SK Brann</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20614+fut17_20608</id>
+    <name provenance="fifa17_20614">Finn Harps</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20099+fut17_20144</id>
+    <name provenance="fifa17_20099">SD Eibar</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20255+fut17_20199+stadiums_20150302_164</id>
+    <name provenance="fifa17_20255">Brentford</name>
+    <capacity provenance="stadiums_20150302_164">12763</capacity>
+  </club>
+  <club>
+    <id>fifa17_20612+fut17_20582+stadiums_20150302_153</id>
+    <name provenance="stadiums_20150302_153">Crewe Alexandra</name>
+    <capacity provenance="stadiums_20150302_153">10153</capacity>
+  </club>
+  <club>
+    <id>fifa17_20517+fut17_20454</id>
+    <name provenance="fifa17_20517">Mar del Plata</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20199+fut17_20142+stadiums_20150302_7</id>
+    <name provenance="fifa17_20199">Fulham</name>
+    <capacity provenance="stadiums_20150302_7">25700</capacity>
+  </club>
+  <club>
+    <id>fifa17_20486+fut17_20509</id>
+    <name provenance="fifa17_20486">Fleetwood Town</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20216+fut17_20235</id>
+    <name provenance="fifa17_20216">Suwon Bluewings</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20169+fut17_20201</id>
+    <name provenance="fifa17_20169">Kaizer Chiefs</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20571+fut17_20497</id>
+    <name provenance="fifa17_20571">Motherwell</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20534+fut17_20533</id>
+    <name provenance="fifa17_20534">Korona Kielce</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20344+fut17_20265</id>
+    <name provenance="fut17_20265">112409</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20249+fut17_20221+stadiums_20150302_30</id>
+    <name provenance="fifa17_20249">Derby County</name>
+    <capacity provenance="stadiums_20150302_30">33597</capacity>
+  </club>
+  <club>
+    <id>fifa17_20438+fut17_20335</id>
+    <name provenance="fifa17_20438">KV Mechelen</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20568+fut17_20523+stadiums_20150302_40</id>
+    <name provenance="fifa17_20568">Portsmouth</name>
+    <capacity provenance="stadiums_20150302_40">20224</capacity>
+  </club>
+  <club>
+    <id>fifa17_20292+fut17_20468</id>
+    <name provenance="fifa17_20292">Benevento</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20327+fut17_20465</id>
+    <name provenance="fifa17_20327">Bury</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20575+fut17_20490</id>
+    <name provenance="fifa17_20575">GwangJu FC</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20562+fut17_20528+stadiums_20150302_159</id>
+    <name provenance="fifa17_20562">Plymouth Argyle</name>
+    <capacity provenance="stadiums_20150302_159">17150</capacity>
+  </club>
+  <club>
+    <id>fifa17_20192+fut17_20255</id>
+    <name provenance="fifa17_20192">Ind. Santa Fe</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20336+fut17_20369</id>
+    <name provenance="fifa17_20336">Parque Patricios</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20620+fut17_20601</id>
+    <name provenance="fifa17_20620">Shamrock Rovers</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20226+fut17_20495</id>
+    <name provenance="fifa17_20226">Arsenal Tula</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20574+fut17_20488</id>
+    <name provenance="fifa17_20574">Northampton</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20317+fut17_20450</id>
+    <name provenance="fifa17_20317">Kashima Antlers</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20101+fut17_20111</id>
+    <name provenance="fifa17_20101">Medipol Başakşehir</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20257+fut17_20185</id>
+    <name provenance="fifa17_20257">UD Almería</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20443+fut17_20333</id>
+    <name provenance="fifa17_20443">ADO Den Haag</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20412+fut17_20414</id>
+    <name provenance="fifa17_20412">Heracles Almelo</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20386+fut17_20302</id>
+    <name provenance="fifa17_20386">La Spezia</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20106+fut17_20116</id>
+    <name provenance="fifa17_20106">Rubin Kazan</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20031+fut17_20063+stadiums_20150302_84</id>
+    <name provenance="stadiums_20150302_84">1. FC Köln</name>
+    <capacity provenance="stadiums_20150302_84">50000</capacity>
+  </club>
+  <club>
+    <id>fifa17_20107+fut17_20108+stadiums_20150302_32</id>
+    <name provenance="fifa17_20107">Hull City</name>
+    <capacity provenance="stadiums_20150302_32">25404</capacity>
+  </club>
+  <club>
+    <id>fifa17_20017+fut17_20030+stadiums_20150302_6</id>
+    <name provenance="fifa17_20017">Everton</name>
+    <capacity provenance="stadiums_20150302_6">40157</capacity>
+  </club>
+  <club>
+    <id>fifa17_20544+fut17_20459</id>
+    <name provenance="fifa17_20544">Inverness CT</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20602+fut17_20588</id>
+    <name provenance="fifa17_20602">GIF Sundsvall</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20530+fut17_20552</id>
+    <name provenance="fifa17_20530">Suwon FC</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20091+fut17_20193</id>
+    <name provenance="fifa17_20091">CA Osasuna</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20247+fut17_20194</id>
+    <name provenance="fifa17_20247">Real Valladolid</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20434+fut17_20427</id>
+    <name provenance="fifa17_20434">RC Strasbourg</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20555+fut17_20551</id>
+    <name provenance="fifa17_20555">Sogndal</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20185+fut17_20145</id>
+    <name provenance="fifa17_20185">SV Darmstadt</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20413+fut17_20421</id>
+    <name provenance="fifa17_20413">Pogoń Szczecin</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20122+fut17_20143</id>
+    <name provenance="fifa17_20122">Levante UD</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20219+fut17_20097+stadiums_20150302_47</id>
+    <name provenance="stadiums_20150302_47">Celtic</name>
+    <capacity provenance="stadiums_20150302_47">60832</capacity>
+  </club>
+  <club>
+    <id>fifa17_20550+fut17_20557</id>
+    <name provenance="fifa17_20550">Walsall</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20279+fut17_20217</id>
+    <name provenance="fifa17_20279">Newell's</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20375+fut17_20293</id>
+    <name provenance="fifa17_20375">AC Ajaccio</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20426+fut17_20339</id>
+    <name provenance="fifa17_20426">Randers FC</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20023+fut17_20040+stadiums_20150302_118</id>
+    <name provenance="fifa17_20023">AS Monaco</name>
+    <capacity provenance="stadiums_20150302_118">18500</capacity>
+  </club>
+  <club>
+    <id>fifa17_20105+fut17_20138</id>
+    <name provenance="fifa17_20105">Toulouse FC</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20605+fut17_20578</id>
+    <name provenance="fifa17_20605">Carlisle United</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20601+fut17_20575</id>
+    <name provenance="fifa17_20601">Helsingborgs IF</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20450+fut17_20271</id>
+    <name provenance="fifa17_20450">SK Sturm Graz</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20313+fut17_20436</id>
+    <name provenance="fifa17_20313">Vercelli</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20416+fut17_20426</id>
+    <name provenance="fifa17_20416">Nîmes Olympique</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20458+fut17_20266</id>
+    <name provenance="fifa17_20458">Perugia</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20050+fut17_20031+stadiums_20150302_80</id>
+    <name provenance="stadiums_20150302_80">VfL Wolfsburg</name>
+    <capacity provenance="stadiums_20150302_80">30000</capacity>
+  </club>
+  <club>
+    <id>fifa17_20012+fut17_20013</id>
+    <name provenance="fifa17_20012">Inter</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20561+fut17_20532+stadiums_20150302_147</id>
+    <name provenance="stadiums_20150302_147">Oxford United</name>
+    <capacity provenance="stadiums_20150302_147">12500</capacity>
+  </club>
+  <club>
+    <id>fifa17_20112+fut17_20101</id>
+    <name provenance="fifa17_20112">Bursaspor</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20127+fut17_20122</id>
+    <name provenance="fifa17_20127">Olympiakos CFP</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20175+fut17_20147</id>
+    <name provenance="fifa17_20175">SM Caen</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20297+fut17_20434</id>
+    <name provenance="fifa17_20297">SD Huesca</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20254+fut17_20277</id>
+    <name provenance="fifa17_20254">Paços Ferreira</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20609+fut17_20571</id>
+    <name provenance="fifa17_20609">Central Coast</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20354+fut17_20352</id>
+    <name provenance="fifa17_20354">Al Shabab</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20275+fut17_20119</id>
+    <name provenance="fifa17_20275">Pescara</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20092+fut17_20125</id>
+    <name provenance="fifa17_20092">San Lorenzo</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20150+fut17_20170</id>
+    <name provenance="fifa17_20150">Deport. Alavés</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20125+fut17_20106+stadiums_20150302_26</id>
+    <name provenance="fifa17_20125">Burnley</name>
+    <capacity provenance="stadiums_20150302_26">22546</capacity>
+  </club>
+  <club>
+    <id>fifa17_20391+fut17_20379+stadiums_20150302_25</id>
+    <name provenance="stadiums_20150302_25">Bristol City</name>
+    <capacity provenance="stadiums_20150302_25">21497</capacity>
+  </club>
+  <club>
+    <id>fifa17_20379+fut17_20326</id>
+    <name provenance="fifa17_20379">Al Fateh</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20419+fut17_20281</id>
+    <name provenance="fifa17_20419">AIK</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20033+fut17_20047</id>
+    <name provenance="fut17_20047">110556</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20158+fut17_20236</id>
+    <name provenance="fifa17_20158">Indep. Medellín</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20227+fut17_20222</id>
+    <name provenance="fifa17_20227">Perth Glory</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20430+fut17_20417</id>
+    <name provenance="fifa17_20430">Hammarby IF</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20006+fut17_20009</id>
+    <name provenance="fifa17_20006">Juventus</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20358+fut17_20250</id>
+    <name provenance="fifa17_20358">Kaiserslautern</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20047+fut17_20058+stadiums_20150302_14</id>
+    <name provenance="fifa17_20047">Stoke City</name>
+    <capacity provenance="stadiums_20150302_14">27740</capacity>
+  </club>
+  <club>
+    <id>fifa17_20579+fut17_20565</id>
+    <name provenance="fifa17_20579">SKN St. Pölten</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20616+fut17_20592</id>
+    <name provenance="fifa17_20616">Cambridge Utd</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20282+fut17_20232</id>
+    <name provenance="fifa17_20282">Veracruz</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20089+fut17_20092+stadiums_20150302_79</id>
+    <name provenance="fifa17_20089">Werder Bremen</name>
+    <capacity provenance="stadiums_20150302_79">42100</capacity>
+  </club>
+  <club>
+    <id>fifa17_20516+fut17_20431</id>
+    <name provenance="fifa17_20516">Patriotas</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20509+fut17_20474</id>
+    <name provenance="fifa17_20509">Erzgebirge Aue</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20475+fut17_20377</id>
+    <name provenance="fifa17_20475">SønderjyskE</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20558+fut17_20554</id>
+    <name provenance="fifa17_20558">Sarpsborg 08 FF</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20505+fut17_20479</id>
+    <name provenance="fifa17_20505">Dynamo Dresden</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20293+fut17_20314</id>
+    <name provenance="fifa17_20293">Chiapas</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20002+fut17_20003</id>
+    <name provenance="fifa17_20002">FC Bayern</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20564+fut17_20499</id>
+    <name provenance="fifa17_20564">Dundee FC</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20123+fut17_20100</id>
+    <name provenance="fifa17_20123">River Plate</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20543+fut17_20547+stadiums_20150302_148</id>
+    <name provenance="fifa17_20543">Southend United</name>
+    <capacity provenance="stadiums_20150302_148">12392</capacity>
+  </club>
+  <club>
+    <id>fifa17_20365+fut17_20317</id>
+    <name provenance="fifa17_20365">Ipswich</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20479+fut17_20356</id>
+    <name provenance="fifa17_20479">Borgocalcio</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20630+fut17_20605</id>
+    <name provenance="fifa17_20630">Bray Wanderers</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20473+fut17_20394+stadiums_20150302_3</id>
+    <name provenance="fifa17_20473">Blackburn Rovers</name>
+    <capacity provenance="stadiums_20150302_3">31154</capacity>
+  </club>
+  <club>
+    <id>fifa17_20465+fut17_20561</id>
+    <name provenance="fifa17_20465">AC Horsens</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20296+fut17_20483</id>
+    <name provenance="fifa17_20296">Sangju Sangmu</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20079+fut17_20035</id>
+    <name provenance="fifa17_20079">Giron. Bordeaux</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20271+fut17_20248</id>
+    <name provenance="fifa17_20271">Terek Grozny</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20588+fut17_20543+stadiums_20150302_53</id>
+    <name provenance="fifa17_20588">Partick Thistle</name>
+    <capacity provenance="stadiums_20150302_53">10887</capacity>
+  </club>
+  <club>
+    <id>fifa17_20171+fut17_20153</id>
+    <name provenance="fifa17_20171">Toluca</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20258+fut17_20257</id>
+    <name provenance="fifa17_20258">Gençlerbirliği</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20115+fut17_20086</id>
+    <name provenance="fifa17_20115">Granada CF</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20305+fut17_20287</id>
+    <name provenance="fifa17_20305">Karabükspor</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20593+fut17_20519</id>
+    <name provenance="fifa17_20593">FK Bodø/Glimt</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20369+fut17_20323</id>
+    <name provenance="fifa17_20369">BK Häcken</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20102+fut17_20105</id>
+    <name provenance="fifa17_20102">Feyenoord</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20086+fut17_20102</id>
+    <name provenance="fifa17_20086">Montpellier HSC</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20075+fut17_20112+stadiums_20150302_75</id>
+    <name provenance="fifa17_20075">1. FSV Mainz 05</name>
+    <capacity provenance="stadiums_20150302_75">34000</capacity>
+  </club>
+  <club>
+    <id>fifa17_20206+fut17_20206</id>
+    <name provenance="fifa17_20206">Çaykur Rizespor</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20037+fut17_20027</id>
+    <name provenance="fifa17_20037">Bor. M'gladbach</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20454+fut17_20359</id>
+    <name provenance="fifa17_20454">KVC Westerlo</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20016+fut17_20020</id>
+    <name provenance="fifa17_20016">Olym. Lyonnais</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20136+fut17_20095</id>
+    <name provenance="fifa17_20136">Empoli</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20548+fut17_20537</id>
+    <name provenance="fifa17_20548">Temperley</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20471+fut17_20325</id>
+    <name provenance="fifa17_20471">Charlton Ath</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20044+fut17_20033</id>
+    <name provenance="fifa17_20044">Beşiktaş</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20043+fut17_20036</id>
+    <name provenance="fifa17_20043">Galatasaray</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20166+fut17_20166</id>
+    <name provenance="fifa17_20166">FC Dallas</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20141+fut17_20121</id>
+    <name provenance="fifa17_20141">Aytemiz Alanyaspor</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20041+fut17_20038</id>
+    <name provenance="fifa17_20041">Fiorentina</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20163+fut17_20168</id>
+    <name provenance="fifa17_20163">FC København</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20389+fut17_20262</id>
+    <name provenance="fifa17_20389">ES Troyes AC</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20039+fut17_20014</id>
+    <name provenance="fifa17_20039">West Ham</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20353+fut17_20318</id>
+    <name provenance="fifa17_20353">Braunschweig</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20021+fut17_20022+stadiums_20150302_87</id>
+    <name provenance="fifa17_20021">Athletic Bilbao</name>
+    <capacity provenance="stadiums_20150302_87">53332</capacity>
+  </club>
+  <club>
+    <id>fifa17_20577+fut17_20536</id>
+    <name provenance="fifa17_20577">Jönköpings Södra IF</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20339+fut17_20408</id>
+    <name provenance="fifa17_20339">Unión Española</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20195+fut17_20395+stadiums_20150302_22</id>
+    <name provenance="stadiums_20150302_22">Birmingham City</name>
+    <capacity provenance="stadiums_20150302_22">30079</capacity>
+  </club>
+  <club>
+    <id>fifa17_20592+fut17_20573</id>
+    <name provenance="fifa17_20592">Wycombe</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20252+fut17_20344</id>
+    <name provenance="fifa17_20252">Sagan Tosu</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20263+fut17_20246</id>
+    <name provenance="fifa17_20263">FC Groningen</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20170+fut17_20176</id>
+    <name provenance="fut17_20176">110781</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20221+fut17_20415</id>
+    <name provenance="fifa17_20221">FC Orenburg</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20058+fut17_20053</id>
+    <name provenance="fifa17_20058">Stade Rennais</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20352+fut17_20311</id>
+    <name provenance="fifa17_20352">Al. Petrolera</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20382+fut17_20371</id>
+    <name provenance="fifa17_20382">Depor. Iquique</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20057+fut17_20056</id>
+    <name provenance="fifa17_20057">Sampdoria</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20160+fut17_20273</id>
+    <name provenance="fifa17_20160">SC Heerenveen</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20346+fut17_20308</id>
+    <name provenance="fifa17_20346">Uni. Concepción</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20183+fut17_20192</id>
+    <name provenance="fifa17_20183">V. Guimarães</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20268+fut17_20256</id>
+    <name provenance="fifa17_20268">V. Setúbal</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20056+fut17_20059</id>
+    <name provenance="fifa17_20056">Lokomotiv Moscow</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20060+fut17_20065</id>
+    <name provenance="fifa17_20060">Atalanta</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20168+fut17_20158</id>
+    <name provenance="fifa17_20168">Estudiantes</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20482+fut17_20456</id>
+    <name provenance="fifa17_20482">Viking FK</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20492+fut17_20375</id>
+    <name provenance="fifa17_20492">Stade Brestois</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20072+fut17_20088</id>
+    <name provenance="fifa17_20072">OGC Nice</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20594+fut17_20560</id>
+    <name provenance="fifa17_20594">FC Thun</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20455+fut17_20418</id>
+    <name provenance="fifa17_20455">San Luis</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20567+fut17_20529</id>
+    <name provenance="fifa17_20567">Doncaster</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20186+fut17_20190</id>
+    <name provenance="fifa17_20186">Nacional</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20132+fut17_20113</id>
+    <name provenance="fifa17_20132">Rosario Central</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20080+fut17_20084+stadiums_20150302_15</id>
+    <name provenance="stadiums_20150302_15">Sunderland</name>
+    <capacity provenance="stadiums_20150302_15">48707</capacity>
+  </club>
+  <club>
+    <id>fifa17_20598+fut17_20564</id>
+    <name provenance="fifa17_20598">IK Start</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20493+fut17_20493</id>
+    <name provenance="fifa17_20493">Tours FC</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20066+fut17_20081</id>
+    <name provenance="fifa17_20066">Spartak Moscow</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20065+fut17_20082</id>
+    <name provenance="fifa17_20065">1899 Hoffenheim</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20448+fut17_20401</id>
+    <name provenance="fifa17_20448">IF Elfsborg</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20048+fut17_20041</id>
+    <name provenance="fifa17_20048">Sassuolo</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20497+fut17_20496</id>
+    <name provenance="fifa17_20497">Piast Gliwice</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20270+fut17_20155</id>
+    <name provenance="fifa17_20270">Columbus Crew SC</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20395+fut17_20267</id>
+    <name provenance="fifa17_20395">Elche CF</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20570+fut17_20527</id>
+    <name provenance="fifa17_20570">Peterborough</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20069+fut17_20089</id>
+    <name provenance="fifa17_20069">West Brom</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20161+fut17_20169</id>
+    <name provenance="fifa17_20161">FC Utrecht</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20154+fut17_20039</id>
+    <name provenance="fifa17_20154">Boca Juniors</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20460+fut17_20416</id>
+    <name provenance="fifa17_20460">Adelaide United</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20260+fut17_20234</id>
+    <name provenance="fifa17_20260">Uni. de Chile</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20472+fut17_20338</id>
+    <name provenance="fifa17_20472">PEC Zwolle</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20469+fut17_20447</id>
+    <name provenance="fifa17_20469">Trapani</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20083+fut17_20096</id>
+    <name provenance="fifa17_20083">Ajax</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20370+fut17_20215</id>
+    <name provenance="fifa17_20370">FC Midtjylland</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20155+fut17_20165</id>
+    <name provenance="fut17_20165">110395</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20368+fut17_20481</id>
+    <name provenance="fifa17_20368">N.E.C.</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20573+fut17_20440+stadiums_20150302_28</id>
+    <name provenance="fifa17_20573">Coventry City</name>
+    <capacity provenance="stadiums_20150302_28">32609</capacity>
+  </club>
+  <club>
+    <id>fifa17_20074+fut17_20070</id>
+    <name provenance="fifa17_20074">Real Betis</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20159+fut17_20167</id>
+    <name provenance="fifa17_20159">CD Leganés</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20052+fut17_20072</id>
+    <name provenance="fifa17_20052">Shakhtar Donetsk</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20597+fut17_20555</id>
+    <name provenance="fifa17_20597">Notts County</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20020+fut17_20017</id>
+    <name provenance="fifa17_20020">AS Saint-Étienne</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20578+fut17_20550</id>
+    <name provenance="fifa17_20578">SV Mattersburg</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20291+fut17_20290</id>
+    <name provenance="fifa17_20291">Chaves</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20477+fut17_20423</id>
+    <name provenance="fifa17_20477">Willem II</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20059+fut17_20074</id>
+    <name provenance="fifa17_20059">RCD Espanyol</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20385+fut17_20472</id>
+    <name provenance="fifa17_20385">Salerno</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20481+fut17_20510+stadiums_20150302_21</id>
+    <name provenance="stadiums_20150302_21">Barnsley</name>
+    <capacity provenance="stadiums_20150302_21">23009</capacity>
+  </club>
+  <club>
+    <id>fifa17_20088+fut17_20093</id>
+    <name provenance="fifa17_20088">FC Rostov</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20467+fut17_20337</id>
+    <name provenance="fifa17_20467">Arminia Bielefeld</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20029+fut17_20028</id>
+    <name provenance="fifa17_20029">Sporting CP</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20004+fut17_20008+stadiums_20150302_5</id>
+    <name provenance="fifa17_20004">Chelsea</name>
+    <capacity provenance="stadiums_20150302_5">42449</capacity>
+  </club>
+  <club>
+    <id>fifa17_20582+fut17_20579</id>
+    <name provenance="fifa17_20582">Ruch Chorzów</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20246+fut17_20233</id>
+    <name provenance="fifa17_20246">Sporting KC</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20470+fut17_20429</id>
+    <name provenance="fifa17_20470">Brisigonza</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20133+fut17_20207</id>
+    <name provenance="fifa17_20133">Whitecaps FC</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20326+fut17_20402</id>
+    <name provenance="fifa17_20326">Al Taawoun</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20068+fut17_20098</id>
+    <name provenance="fifa17_20068">Eint. Frankfurt</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20361+fut17_20357</id>
+    <name provenance="fut17_20357">110915</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20566+fut17_20504</id>
+    <name provenance="fifa17_20566">Górnik Łęczna</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20565+fut17_20502</id>
+    <name provenance="fifa17_20565">Lillestrøm SK</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20051+fut17_20062</id>
+    <name provenance="fifa17_20051">Bournemouth</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20165+fut17_20130</id>
+    <name provenance="fifa17_20165">Newcastle Utd</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20596+fut17_20545</id>
+    <name provenance="fifa17_20596">Wolfsberger AC</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20042+fut17_20023</id>
+    <name provenance="fifa17_20042">Torino</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20267+fut17_20240</id>
+    <name provenance="fifa17_20267">Kasimpaşa</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20453+fut17_20438</id>
+    <name provenance="fifa17_20453">Hearts</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20137+fut17_20211</id>
+    <name provenance="fifa17_20137">Uni. Católica</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20025+fut17_20025</id>
+    <name provenance="fifa17_20025">FC Schalke 04</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20156+fut17_20175</id>
+    <name provenance="fifa17_20156">Atl. Nacional</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20076+fut17_20067</id>
+    <name provenance="fifa17_20076">LA Galaxy</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20591+fut17_20542</id>
+    <name provenance="fifa17_20591">Shrewsbury</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20040+fut17_20024</id>
+    <name provenance="fifa17_20040">Valencia CF</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20055+fut17_20060</id>
+    <name provenance="fifa17_20055">Udinese</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20243+fut17_20241</id>
+    <name provenance="fifa17_20243">Kayserispor</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20164+fut17_20137</id>
+    <name provenance="fifa17_20164">Vitesse</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20583+fut17_20580</id>
+    <name provenance="fifa17_20583">Colchester</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20589+fut17_20581</id>
+    <name provenance="fifa17_20589">St. Pats</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20374+fut17_20322</id>
+    <name provenance="fifa17_20374">IFK Göteborg</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20484+fut17_20470</id>
+    <name provenance="fifa17_20484">Incheon United</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20357+fut17_20310</id>
+    <name provenance="fifa17_20357">Kashiwa Reysol</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20364+fut17_20365</id>
+    <name provenance="fifa17_20364">CD Lugo</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20468+fut17_20466</id>
+    <name provenance="fifa17_20468">CD Mirandés</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20162+fut17_20141</id>
+    <name provenance="fifa17_20162">Rio Ave</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20071+fut17_20075</id>
+    <name provenance="fifa17_20071">CSKA Moscow</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20070+fut17_20078</id>
+    <name provenance="fifa17_20070">Málaga CF</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20337+fut17_20432</id>
+    <name provenance="fifa17_20337">FC Sochaux</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20013+fut17_20015</id>
+    <name provenance="fifa17_20013">Bayer 04</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20032+fut17_20054</id>
+    <name provenance="fifa17_20032">Sevilla FC</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20011+fut17_20010</id>
+    <name provenance="fifa17_20011">Spurs</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20576+fut17_20577</id>
+    <name provenance="fifa17_20576">Termalica</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20262+fut17_20208</id>
+    <name provenance="fifa17_20262">Belenenses</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20240+fut17_20404</id>
+    <name provenance="fifa17_20240">Ulsan Hyundai</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20381+fut17_20330</id>
+    <name provenance="fifa17_20381">Austria Wien</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20061+fut17_20037</id>
+    <name provenance="fifa17_20061">LOSC Lille</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20026+fut17_20016+stadiums_20150302_29</id>
+    <name provenance="fifa17_20026">Crystal Palace</name>
+    <capacity provenance="stadiums_20150302_29">26309</capacity>
+  </club>
+  <club>
+    <id>fifa17_20174+fut17_20148</id>
+    <name provenance="fifa17_20174">KV Oostende</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20222+fut17_20213</id>
+    <name provenance="fifa17_20222">Grasshopper</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20466+fut17_20341</id>
+    <name provenance="fifa17_20466">Strømsgodset IF</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20111+fut17_20107</id>
+    <name provenance="fifa17_20111">Portland</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20191+fut17_20173</id>
+    <name provenance="fifa17_20191">Boavista</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20241+fut17_20247</id>
+    <name provenance="fifa17_20241">Al Hilal</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20151+fut17_20177</id>
+    <name provenance="fifa17_20151">Independiente</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20397+fut17_20350</id>
+    <name provenance="fifa17_20397">Karlsruher SC</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20007+fut17_20006</id>
+    <name provenance="fifa17_20007">PSG</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20193+fut17_20171</id>
+    <name provenance="fifa17_20193">Wolves</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20537+fut17_20501</id>
+    <name provenance="fifa17_20537">MK Dons</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20078+fut17_20052</id>
+    <name provenance="fifa17_20078">Tigres</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20082+fut17_20066</id>
+    <name provenance="fifa17_20082">Antalyaspor</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20250+fut17_20301</id>
+    <name provenance="fifa17_20250">Zulte-Waregem</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20272+fut17_20220</id>
+    <name provenance="fifa17_20272">Preston</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20001+fut17_20002</id>
+    <name provenance="fifa17_20001">FC Barcelona</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20126+fut17_20117</id>
+    <name provenance="fifa17_20126">Monterrey</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20003+fut17_20004</id>
+    <name provenance="fifa17_20003">Manchester Utd</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20587+fut17_20522</id>
+    <name provenance="fifa17_20587">Viborg FF</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20264+fut17_20342</id>
+    <name provenance="fifa17_20264">FC Twente</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20167+fut17_20191</id>
+    <name provenance="fifa17_20167">Legia Warszawa</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20096+fut17_20083</id>
+    <name provenance="fifa17_20096">Chievo Verona</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20030+fut17_20045</id>
+    <name provenance="fifa17_20030">FC Porto</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20063+fut17_20048</id>
+    <name provenance="fut17_20048">112828</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20343+fut17_20345</id>
+    <name provenance="fifa17_20343">Vissel Kobe</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20117+fut17_20355</id>
+    <name provenance="fifa17_20117">Djurgårdens IF</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20376+fut17_20386</id>
+    <name provenance="fifa17_20376">Jagiellonia</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20283+fut17_20476</id>
+    <name provenance="fifa17_20283">Excelsior</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20253+fut17_20274</id>
+    <name provenance="fifa17_20253">Roda JC</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20172+fut17_20120</id>
+    <name provenance="fifa17_20172">Colo-Colo</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20036+fut17_20046</id>
+    <name provenance="fifa17_20036">Toronto FC</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20261+fut17_20278</id>
+    <name provenance="fifa17_20261">Melb. Victory</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20586+fut17_20480</id>
+    <name provenance="fifa17_20586">Örebro SK</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20559+fut17_20558</id>
+    <name provenance="fifa17_20559">Al Wehda</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20451+fut17_20214</id>
+    <name provenance="fifa17_20451">AJ Auxerre</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20360+fut17_20437</id>
+    <name provenance="fifa17_20360">Amkar Perm</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20410+fut17_20505</id>
+    <name provenance="fifa17_20410">WS Wanderers</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20053+fut17_20034</id>
+    <name provenance="fut17_20034">100769</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20238+fut17_20253</id>
+    <name provenance="fifa17_20238">Guadalajara</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20585+fut17_20534</id>
+    <name provenance="fifa17_20585">Tromsø IL</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20119+fut17_20126</id>
+    <name provenance="fifa17_20119">Sporting Gijón</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20142+fut17_20188</id>
+    <name provenance="fifa17_20142">EA Guingamp</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20153+fut17_20127</id>
+    <name provenance="fifa17_20153">Osmanlıspor</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20633+fut17_20607</id>
+    <name provenance="fifa17_20633">Longford Town</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20223+fut17_20104+stadiums_20150302_99</id>
+    <name provenance="fifa17_20223">Rayo Vallecano</name>
+    <capacity provenance="stadiums_20150302_99">15489</capacity>
+  </club>
+  <club>
+    <id>fifa17_20631+fut17_20606</id>
+    <name provenance="fifa17_20631">Galway United</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20457+fut17_20595</id>
+    <name provenance="fifa17_20457">Al Khaleej</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20014+fut17_20019+stadiums_20150302_8</id>
+    <name provenance="fifa17_20014">Liverpool</name>
+    <capacity provenance="stadiums_20150302_8">45276</capacity>
+  </club>
+  <club>
+    <id>fifa17_20581+fut17_20539</id>
+    <name provenance="fifa17_20581">FC Lugano</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20495+fut17_20467</id>
+    <name provenance="fifa17_20495">Clermont Foot</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20113+fut17_20124</id>
+    <name provenance="fifa17_20113">Necaxa</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20549+fut17_20544</id>
+    <name provenance="fifa17_20549">Arka Gdynia</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20351+fut17_20254</id>
+    <name provenance="fifa17_20351">Millonarios</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20085+fut17_20085+stadiums_20150302_63</id>
+    <name provenance="fifa17_20085">FC Augsburg</name>
+    <capacity provenance="stadiums_20150302_63">30660</capacity>
+  </club>
+  <club>
+    <id>fifa17_20393+fut17_20259</id>
+    <name provenance="fifa17_20393">AS Nancy</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20350+fut17_20406</id>
+    <name provenance="fifa17_20350">Deportes Tolima</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20556+fut17_20506</id>
+    <name provenance="fifa17_20556">Gillingham</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20187+fut17_20197+stadiums_20150302_70</id>
+    <name provenance="stadiums_20150302_70">SC Freiburg</name>
+    <capacity provenance="stadiums_20150302_70">24000</capacity>
+  </club>
+  <club>
+    <id>fifa17_20373+fut17_20407</id>
+    <name provenance="fifa17_20373">CD Palestino</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20015+fut17_20029</id>
+    <name provenance="fifa17_20015">Roma</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20269+fut17_20160</id>
+    <name provenance="fifa17_20269">New England</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20209+fut17_20203</id>
+    <name provenance="fifa17_20209">Orlando Pirates</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20138+fut17_20132</id>
+    <name provenance="fut17_20132">1906</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20399+fut17_20353</id>
+    <name provenance="fifa17_20399">CD Numancia</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20378+fut17_20231</id>
+    <name provenance="fifa17_20378">AD Alcorcón</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20207+fut17_20205</id>
+    <name provenance="fifa17_20207">Melbourne City</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20355+fut17_20351</id>
+    <name provenance="fifa17_20355">SK Rapid Wien</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20478+fut17_20462</id>
+    <name provenance="fifa17_20478">Lyngby BK</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20038+fut17_20026</id>
+    <name provenance="fifa17_20038">SL Benfica</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20244+fut17_20164</id>
+    <name provenance="fifa17_20244">Tijuana</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20387+fut17_20315</id>
+    <name provenance="fifa17_20387">Brescia</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20599+fut17_20583</id>
+    <name provenance="fifa17_20599">Admira Wacker</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20220+fut17_20210</id>
+    <name provenance="fifa17_20220">KAA Gent</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20563+fut17_20524+stadiums_20150302_55</id>
+    <name provenance="fifa17_20563">St. Johnstone</name>
+    <capacity provenance="stadiums_20150302_55">10673</capacity>
+  </club>
+  <club>
+    <id>fifa17_20349+fut17_20312</id>
+    <name provenance="fifa17_20349">Al Nassr</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20019+fut17_20018</id>
+    <name provenance="fifa17_20019">Napoli</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20541+fut17_20548</id>
+    <name provenance="fifa17_20541">Al Raed</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20474+fut17_20471</id>
+    <name provenance="fifa17_20474">FC Vaduz</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20371+fut17_20403</id>
+    <name provenance="fifa17_20371">Cádiz C.F.</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20157+fut17_20133</id>
+    <name provenance="fifa17_20157">FC Nantes</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20380+fut17_20413</id>
+    <name provenance="fifa17_20380">FC Lausanne</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20626+fut17_20602</id>
+    <name provenance="fifa17_20626">Sligo Rovers</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20120+fut17_20163</id>
+    <name provenance="fifa17_20120">Angers SCO</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20622+fut17_20600</id>
+    <name provenance="fifa17_20622">Newport County</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20331+fut17_20118</id>
+    <name provenance="fifa17_20331">FC Luzern</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20218+fut17_20239</id>
+    <name provenance="fifa17_20218">Sheffield Wed</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20274+fut17_20425</id>
+    <name provenance="fifa17_20274">Brisbane Roar</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20503+fut17_20396</id>
+    <name provenance="fifa17_20503">Well. Phoenix</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20284+fut17_20324</id>
+    <name provenance="fifa17_20284">US Orléans</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20009+fut17_20011+stadiums_20150302_88</id>
+    <name provenance="fifa17_20009">Atlético Madrid</name>
+    <capacity provenance="stadiums_20150302_88">54851</capacity>
+  </club>
+  <club>
+    <id>fifa17_20130+fut17_20178</id>
+    <name provenance="fifa17_20130">RSC Anderlecht</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20230+fut17_20269</id>
+    <name provenance="fifa17_20230">Gimnàstic</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20394+fut17_20313</id>
+    <name provenance="fifa17_20394">Fl. Varela</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20190+fut17_20139</id>
+    <name provenance="fifa17_20190">Santos Laguna</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20248+fut17_20172</id>
+    <name provenance="fifa17_20248">Palermo</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20531+fut17_20530</id>
+    <name provenance="fifa17_20531">Chesterfield</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20536+fut17_20525</id>
+    <name provenance="fifa17_20536">Bristol Rovers</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20431+fut17_20336</id>
+    <name provenance="fifa17_20431">Audax Italiano</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20134+fut17_20077</id>
+    <name provenance="fifa17_20134">Trabzonspor</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20198+fut17_20151</id>
+    <name provenance="fifa17_20198">Norwich</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20108+fut17_20110</id>
+    <name provenance="fifa17_20108">FC Basel</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20408+fut17_20405</id>
+    <name provenance="fifa17_20408">UCAM Murcia</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20476+fut17_20292</id>
+    <name provenance="fifa17_20476">Molde FK</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20090+fut17_20057</id>
+    <name provenance="fifa17_20090">PSV</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20356+fut17_20179</id>
+    <name provenance="fifa17_20356">FC Ural</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20298+fut17_20226</id>
+    <name provenance="fifa17_20298">Sydney FC</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20194+fut17_20242</id>
+    <name provenance="fifa17_20194">PAOK</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20259+fut17_20182</id>
+    <name provenance="fifa17_20259">D.C. United</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20214+fut17_20343</id>
+    <name provenance="fut17_20343">110822</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20103+fut17_20115</id>
+    <name provenance="fifa17_20103">FC Lorient</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20294+fut17_20230</id>
+    <name provenance="fifa17_20294">Getafe CF</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20093+fut17_20073</id>
+    <name provenance="fifa17_20093">Bologna</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20603+fut17_20589</id>
+    <name provenance="fifa17_20603">Morecambe</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20390+fut17_20457</id>
+    <name provenance="fifa17_20390">KAS Eupen</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20067+fut17_20080+stadiums_20150302_43</id>
+    <name provenance="fifa17_20067">Watford</name>
+    <capacity provenance="stadiums_20150302_43">23500</capacity>
+  </club>
+  <club>
+    <id>fifa17_20287+fut17_20354</id>
+    <name provenance="fifa17_20287">1. FC Heidenheim</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20285+fut17_20309</id>
+    <name provenance="fifa17_20285">Union Berlin</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20557+fut17_20553</id>
+    <name provenance="fifa17_20557">Silkeborg IF</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20445+fut17_20367</id>
+    <name provenance="fifa17_20445">Odds BK</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20018+fut17_20042</id>
+    <name provenance="fifa17_20018">Olym. Marseille</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20152+fut17_20209</id>
+    <name provenance="fifa17_20152">Pachuca</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20277+fut17_20218</id>
+    <name provenance="fifa17_20277">F. Düsseldorf</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20606+fut17_20590+stadiums_20150302_144</id>
+    <name provenance="stadiums_20150302_144">Grimsby Town</name>
+    <capacity provenance="stadiums_20150302_144">9062</capacity>
+  </club>
+  <club>
+    <id>fifa17_20325+fut17_20245</id>
+    <name provenance="fifa17_20325">Vélez Sarsfield</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20045+fut17_20094</id>
+    <name provenance="fifa17_20045">UD Las Palmas</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20429+fut17_20331</id>
+    <name provenance="fifa17_20429">SJ Earthquakes</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20462+fut17_20484</id>
+    <name provenance="fifa17_20462">Jeonnam Dragons</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20463+fut17_20360</id>
+    <name provenance="fifa17_20463">Vicenza</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20034+fut17_20079</id>
+    <name provenance="fifa17_20034">Celta Vigo</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20422+fut17_20511</id>
+    <name provenance="fifa17_20422">Cracovia</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20501+fut17_20507</id>
+    <name provenance="fifa17_20501">Go Ahead Eagles</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20572+fut17_20541+stadiums_20150302_145</id>
+    <name provenance="stadiums_20150302_145">Luton Town</name>
+    <capacity provenance="stadiums_20150302_145">10356</capacity>
+  </club>
+  <club>
+    <id>fifa17_20332+fut17_20320</id>
+    <name provenance="fifa17_20332">Sp. Charleroi</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20314+fut17_20433</id>
+    <name provenance="fifa17_20314">Terni</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20489+fut17_20503</id>
+    <name provenance="fifa17_20489">Atlético Huila</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20345+fut17_20238</id>
+    <name provenance="fut17_20238">111715</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20491+fut17_20439</id>
+    <name provenance="fifa17_20491">Würzburger Kickers</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20414+fut17_20422</id>
+    <name provenance="fifa17_20414">SV Sandhausen</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20425+fut17_20223</id>
+    <name provenance="fifa17_20425">RCD Mallorca</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20359+fut17_20399</id>
+    <name provenance="fifa17_20359">Vålerenga Fotball</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20459+fut17_20385</id>
+    <name provenance="fifa17_20459">Albirex Niigata</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20432+fut17_20389+stadiums_20150302_19</id>
+    <name provenance="fifa17_20432">Wigan Athletic</name>
+    <capacity provenance="stadiums_20150302_19">25133</capacity>
+  </club>
+  <club>
+    <id>fifa17_20278+fut17_20328</id>
+    <name provenance="fifa17_20278">RC Lens</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20341+fut17_20363</id>
+    <name provenance="fifa17_20341">Santa Fe</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20010+fut17_20012</id>
+    <name provenance="fifa17_20010">Bor. Dortmund</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20073+fut17_20055</id>
+    <name provenance="fifa17_20073">Fenerbahçe</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20546+fut17_20514</id>
+    <name provenance="fifa17_20546">Omiya Ardija</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20129+fut17_20128</id>
+    <name provenance="fifa17_20129">América</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20131+fut17_20261</id>
+    <name provenance="fifa17_20131">KRC Genk</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20228+fut17_20298</id>
+    <name provenance="fifa17_20228">Hellas Verona</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20488+fut17_20428</id>
+    <name provenance="fifa17_20488">CD Huachipato</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20005+fut17_20007+stadiums_20150302_1</id>
+    <name provenance="fifa17_20005">Arsenal</name>
+    <capacity provenance="stadiums_20150302_1">60361</capacity>
+  </club>
+  <club>
+    <id>fifa17_20184+fut17_20200</id>
+    <name provenance="fifa17_20184">Standard Liège</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20619+fut17_20570+stadiums_20150302_163</id>
+    <name provenance="stadiums_20150302_163">Yeovil Town</name>
+    <capacity provenance="stadiums_20150302_163">9565</capacity>
+  </club>
+  <club>
+    <id>fifa17_20097+fut17_20091</id>
+    <name provenance="fifa17_20097">RC Deportivo</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20490+fut17_20444</id>
+    <name provenance="fifa17_20490">CD Cobresal</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20251+fut17_20327+stadiums_20150302_41</id>
+    <name provenance="stadiums_20150302_41">Reading</name>
+    <capacity provenance="stadiums_20150302_41">24224</capacity>
+  </club>
+  <club>
+    <id>fifa17_20231+fut17_20227</id>
+    <name provenance="fifa17_20231">Real Salt Lake</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20580+fut17_20517</id>
+    <name provenance="fifa17_20580">FK Haugesund</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20028+fut17_20032</id>
+    <name provenance="fifa17_20028">Milan</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20388+fut17_20225</id>
+    <name provenance="fut17_20225">101144</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20245+fut17_20258</id>
+    <name provenance="fifa17_20245">Deportivo Cali</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20449+fut17_20272</id>
+    <name provenance="fifa17_20449">Sport. Lokeren</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20046+fut17_20043+stadiums_20150302_42</id>
+    <name provenance="fifa17_20046">Southampton</name>
+    <capacity provenance="stadiums_20150302_42">32689</capacity>
+  </club>
+  <club>
+    <id>fifa17_20188+fut17_20204</id>
+    <name provenance="fifa17_20188">U.N.A.M.</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20604+fut17_20556</id>
+    <name provenance="fifa17_20604">AFC Wimbledon</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20299+fut17_20300</id>
+    <name provenance="fifa17_20299">Urawa Diamonds</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20087+fut17_20087</id>
+    <name provenance="fifa17_20087">FC Krasnodar</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20124+fut17_20195</id>
+    <name provenance="fifa17_20124">Querétaro</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20542+fut17_20526</id>
+    <name provenance="fifa17_20542">SCR Altach</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20095+fut17_20071+stadiums_20150302_71</id>
+    <name provenance="fifa17_20095">Hamburger SV</name>
+    <capacity provenance="stadiums_20150302_71">57000</capacity>
+  </club>
+  <club>
+    <id>fifa17_20266+fut17_20187</id>
+    <name provenance="fifa17_20266">FC Sion</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20121+fut17_20114</id>
+    <name provenance="fifa17_20121">Club Brugge</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20295+fut17_20316</id>
+    <name provenance="fifa17_20295">Córdoba CF</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20366+fut17_20376</id>
+    <name provenance="fifa17_20366">KV Kortrijk</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20276+fut17_20186</id>
+    <name provenance="fifa17_20276">Jeonbuk Hyundai</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20480+fut17_20531</id>
+    <name provenance="fifa17_20480">Bourg-Péronnas</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20229+fut17_20224</id>
+    <name provenance="fut17_20224">1848</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20418+fut17_20449</id>
+    <name provenance="fifa17_20418">CF Reus Deportiu</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20377+fut17_20334</id>
+    <name provenance="fifa17_20377">Wisła Kraków</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20600+fut17_20559</id>
+    <name provenance="fifa17_20600">SV Ried</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20027+fut17_20064+stadiums_20150302_101</id>
+    <name provenance="stadiums_20150302_101">Real Sociedad</name>
+    <capacity provenance="stadiums_20150302_101">32076</capacity>
+  </club>
+  <club>
+    <id>fifa17_20210+fut17_20150</id>
+    <name provenance="fifa17_20210">FC Metz</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20288+fut17_20305</id>
+    <name provenance="fut17_20305">101114</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20362+fut17_20264</id>
+    <name provenance="fifa17_20362">Malmö FF</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20618+fut17_20584</id>
+    <name provenance="fifa17_20618">Mansfield Town</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20024+fut17_20044</id>
+    <name provenance="fifa17_20024">Villarreal CF</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20494+fut17_20469</id>
+    <name provenance="fifa17_20494">Stabæk Fotball</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20114+fut17_20123</id>
+    <name provenance="fifa17_20114">Racing Club</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20452+fut17_20349</id>
+    <name provenance="fifa17_20452">Seongnam FC</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20104+fut17_20103</id>
+    <name provenance="fifa17_20104">Sounders FC</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20062+fut17_20050</id>
+    <name provenance="fifa17_20062">Orlando City</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20203+fut17_20154</id>
+    <name provenance="fifa17_20203">FC Ingolstadt</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20400+fut17_20321</id>
+    <name provenance="fifa17_20400">Yokohama F. Marinos</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20022+fut17_20021+stadiums_20150302_35</id>
+    <name provenance="stadiums_20150302_35">Leicester City</name>
+    <capacity provenance="stadiums_20150302_35">32500</capacity>
+  </club>
+  <club>
+    <id>fifa17_20363+fut17_20319</id>
+    <name provenance="fifa17_20363">Crotone</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20242+fut17_20229</id>
+    <name provenance="fifa17_20242">Stade de Reims</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20632+fut17_20609</id>
+    <name provenance="fifa17_20632">Wexford Youths</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20498+fut17_20464</id>
+    <name provenance="fifa17_20498">Red Star FC</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20545+fut17_20494</id>
+    <name provenance="fifa17_20545">Boyacá Chicó</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20628+fut17_20594</id>
+    <name provenance="fifa17_20628">Derry City</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20539+fut17_20569</id>
+    <name provenance="fifa17_20539">Rochdale</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20049+fut17_20051</id>
+    <name provenance="fifa17_20049">Lazio</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20256+fut17_20136</id>
+    <name provenance="fifa17_20256">QPR</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20173+fut17_20392</id>
+    <name provenance="fifa17_20173">FC St. Gallen</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20273+fut17_20362</id>
+    <name provenance="fifa17_20273">Banfield</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20607+fut17_20597</id>
+    <name provenance="fifa17_20607">Cork City</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20510+fut17_20473</id>
+    <name provenance="fifa17_20510">Shonan Bellmare</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20135+fut17_20134</id>
+    <name provenance="fifa17_20135">Akhisarspor</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20624+fut17_20498</id>
+    <name provenance="fifa17_20624">Accrington</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20098+fut17_20146</id>
+    <name provenance="fifa17_20098">Al Ahli</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20208+fut17_20157+stadiums_20150302_2</id>
+    <name provenance="stadiums_20150302_2">Aston Villa</name>
+    <capacity provenance="stadiums_20150302_2">42785</capacity>
+  </club>
+  <club>
+    <id>fifa17_20307+fut17_20276</id>
+    <name provenance="fifa17_20307">Real Oviedo</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20590+fut17_20585</id>
+    <name provenance="fifa17_20590">Avispa Fukuoka</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20499+fut17_20515</id>
+    <name provenance="fifa17_20499">FC Nordsjælland</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20139+fut17_20131</id>
+    <name provenance="fifa17_20139">Kalmar FF</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20535+fut17_20463</id>
+    <name provenance="fifa17_20535">Cham. Niortais</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20320+fut17_20283</id>
+    <name provenance="fifa17_20320">VfL Bochum</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20054+fut17_20061+stadiums_20150302_16</id>
+    <name provenance="stadiums_20150302_16">Swansea City</name>
+    <capacity provenance="stadiums_20150302_16">20520</capacity>
+  </club>
+  <club>
+    <id>fifa17_20324+fut17_20156</id>
+    <name provenance="fifa17_20324">Nott'm Forest</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20084+fut17_20109</id>
+    <name provenance="fifa17_20084">RB Leipzig</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20140+fut17_20129+stadiums_20150302_78</id>
+    <name provenance="stadiums_20150302_78">VfB Stuttgart</name>
+    <capacity provenance="stadiums_20150302_78">60441</capacity>
+  </club>
+  <club>
+    <id>fifa17_20608+fut17_20520</id>
+    <name provenance="fifa17_20608">Newcastle Jets</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20584+fut17_20546</id>
+    <name provenance="fifa17_20584">Scunthorpe Utd</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20328+fut17_20270</id>
+    <name provenance="fifa17_20328">GFC Ajaccio</name>
+    <capacity provenance=""/>
+  </club>
+  <club>
+    <id>fifa17_20500+fut17_20512+stadiums_20150302_62</id>
+    <name provenance="fifa17_20500">Ross County</name>
+    <capacity provenance="stadiums_20150302_62">6310</capacity>
+  </club>
+</clubs>

@@ -91,11 +91,11 @@ public class App
     			FusibleDataSet<Club, Attribute> fusedDataSet = engine.run(correspondences, null);
 
     			// write the result
-<<<<<<< HEAD
+
     			new ClubXMLFormatter().writeXML(new File("data/output/club_fused.xml"), fusedDataSet);
-=======
+
     			new ClubXMLFormatter().writeXML(new File("data/output/fused_club.xml"), fusedDataSet);
->>>>>>> b47cc14d50d392d14e37999da01d2586eca1e028
+
 
     			// load the gold standard
     			DataSet<Club, Attribute> gs = new FusibleHashedDataSet<>();
