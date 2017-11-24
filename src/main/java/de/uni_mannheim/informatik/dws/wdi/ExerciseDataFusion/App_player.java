@@ -96,7 +96,7 @@ public class App_player
     			
     			// add attribute fusers
     			strategy.addAttributeFuser(Player.NAME, new PlayerNameFuser(), new PlayerNameEvaluationRule());
-    		//	strategy.addAttributeFuser(Player.BIRTHDATE, new PlayerBirthdateFuser(), new PlayerBirthdateEvaluationRule());
+    			// strategy.addAttributeFuser(Player.BIRTHDATE, new PlayerBirthdateFuser(), new PlayerBirthdateEvaluationRule());
     			strategy.addAttributeFuser(Player.NATIONALITY, new PlayerNationalityFuser(), new PlayerNationalityEvaluationRule());
     			strategy.addAttributeFuser(Player.AGE, new PlayerAgeFuser(), new PlayerAgeEvaluationRule());
     			strategy.addAttributeFuser(Player.RATING, new PlayerRatingFuser(), new PlayerRatingEvaluationRule());
@@ -115,7 +115,7 @@ public class App_player
     			FusibleDataSet<Player, Attribute> fusedDataSet = engine.run(correspondences, null);
 
     			// write the result
-    			new PlayerXMLFormatter().writeXML(new File("data/output/fused.xml"), fusedDataSet);
+    			new PlayerXMLFormatter().writeXML(new File("data/output/player_fused.xml"), fusedDataSet);
 
     			// load the gold standard
     			DataSet<Player, Attribute> gs = new FusibleHashedDataSet<>();
