@@ -37,9 +37,6 @@ public class DirectorEvaluationRule extends EvaluationRule<Movie, Attribute> {
 			return record1.getDirector().equals(record2.getDirector());
 	}
 
-	/* (non-Javadoc)
-	 * @see de.uni_mannheim.informatik.wdi.datafusion.EvaluationRule#isEqual(java.lang.Object, java.lang.Object, de.uni_mannheim.informatik.wdi.model.Correspondence)
-	 */
 	@Override
 	public boolean isEqual(Movie record1, Movie record2,
 			Correspondence<Attribute, Matchable> schemaCorrespondence) {

@@ -54,6 +54,11 @@ public class PlayerXMLFormatter extends XMLFormatter<Player> {
 			player.appendChild(createTextElement("rating", Double.toString(record.getRating()), doc));
 
 		}
+		if(record.getValue() != null)
+		{
+			player.appendChild(createTextElement("value", Double.toString(record.getValue()), doc));
+
+		}
 		
 
 		return player;
