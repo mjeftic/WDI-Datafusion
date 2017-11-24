@@ -11,6 +11,8 @@
  */
 package de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.model;
 
+import java.time.format.DateTimeFormatter;
+
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
@@ -34,7 +36,10 @@ public class PlayerXMLFormatter extends XMLFormatter<Player> {
 		Element player = doc.createElement("player");
 
 		player.appendChild(createTextElement("name", record.getName(), doc));
-		player.appendChild(createTextElement("brithdate", record.getBirthdate(), doc));
+		
+		String date = record.getBirthdate().toString();
+		
+		player.appendChild(createTextElement("brithdate", date, doc));
 		player.appendChild(createTextElement("nationality", record.getNationality(), doc));
 		player.appendChild(createTextElement("position", record.getPosition(), doc));
 		player.appendChild(createTextElement("age", Double.toString(record.getAge()), doc));

@@ -11,12 +11,18 @@
  */
 package de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.model;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeFormatterBuilder;
 import java.time.temporal.ChronoField;
+import java.util.Date;
 import java.util.List;
 import java.util.Locale;
+
+import javax.swing.text.DateFormatter;
 
 import org.w3c.dom.Node;
 
@@ -61,7 +67,10 @@ public class PlayerXMLReader extends XMLMatchableReader<Player, Attribute>  {
 				// fill the attributes
 				player.setName(getValueFromChildElement(node, "name"));
 				
-				player.setBirthdate(getValueFromChildElement(node, "brithdate"));
+
+			    player.setBirthdate(getValueFromChildElement(node, "brithdate"));
+
+				
 				player.setAge((double)Integer.parseInt(getValueFromChildElement(node, "age")));
 				try {
 					player.setRating((double)Integer.parseInt(getValueFromChildElement(node, "rating")));

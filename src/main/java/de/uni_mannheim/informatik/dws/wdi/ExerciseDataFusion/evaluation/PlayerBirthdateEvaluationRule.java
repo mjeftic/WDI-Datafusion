@@ -1,5 +1,9 @@
 package de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.evaluation;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.model.Club;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.model.Player;
 import de.uni_mannheim.informatik.dws.winter.datafusion.EvaluationRule;
@@ -17,7 +21,11 @@ public class PlayerBirthdateEvaluationRule extends EvaluationRule<Player, Attrib
 	public boolean isEqual(Player record1, Player record2, Attribute schemaElement) {
 		// the title is correct if all tokens are there, but the order does not
 		// matter
-		return sim.calculate(record1.getBirthdate(), record2.getBirthdate()) == 1.0;
+		
+		String date1 = record1.getBirthdate().toString();
+		String date2 = record1.getBirthdate().toString();
+		
+		return sim.calculate(date1, date2) == 1.0;
 	}
 
 	/* (non-Javadoc)

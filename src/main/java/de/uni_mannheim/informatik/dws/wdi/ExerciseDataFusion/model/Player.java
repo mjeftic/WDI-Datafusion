@@ -12,12 +12,19 @@
 package de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.model;
 
 import java.io.Serializable;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
+
+import javax.swing.text.DateFormatter;
 
 import org.apache.commons.lang3.StringUtils;
 
@@ -97,7 +104,7 @@ public class Player extends AbstractRecord<Attribute> implements Serializable{
 
 
 	public void setBirthdate(String birthdate) {
-		this.brithdate = birthdate;
+	    this.brithdate = birthdate;
 	}
 
 
@@ -227,7 +234,7 @@ public class Player extends AbstractRecord<Attribute> implements Serializable{
 		if(attribute==NAME)
 			return getName() != null && !getName().isEmpty();
 		else if(attribute==BIRTHDATE)
-			return getBirthdate() != null && !getBirthdate().isEmpty();
+			return getBirthdate() != null;
 		else if(attribute==AGE)
 				return getAge() != 0;
 		else if(attribute==NATIONALITY)

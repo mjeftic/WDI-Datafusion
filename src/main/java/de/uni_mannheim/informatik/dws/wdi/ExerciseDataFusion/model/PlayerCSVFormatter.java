@@ -11,6 +11,8 @@
  */
 package de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.model;
 
+import java.time.format.DateTimeFormatter;
+
 import de.uni_mannheim.informatik.dws.winter.model.DataSet;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.model.io.CSVDataSetFormatter;
@@ -35,11 +37,15 @@ public class PlayerCSVFormatter extends CSVDataSetFormatter<Player, Attribute> {
 	 */
 	@Override
 	public String[] format(Player record, DataSet<Player, Attribute> dataset) {
+		
+		String date = record.getBirthdate().toString();
+		
 		return new String[] {
+				
 				record.getIdentifier(),
 				record.getName(),
 				record.getNationality(),
-				record.getBirthdate(),
+				date,
 				Double.toString(record.getAge()),
 				Double.toString(record.getRating()),
 				record.getPosition(),

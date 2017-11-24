@@ -119,8 +119,6 @@ public class App_player
 
     			// write the result
 
-    			new PlayerXMLFormatter().writeXML(new File("data/output/player_fused.xml"), fusedDataSet);
-
     			new PlayerXMLFormatter().writeXML(new File("data/output/fused_player.xml"), fusedDataSet);
 
 
