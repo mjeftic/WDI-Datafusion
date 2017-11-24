@@ -19,6 +19,7 @@ import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.evaluation.PlayerNa
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.evaluation.PlayerNationalityEvaluationRule;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.evaluation.PlayerPositionEvaluationRule;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.evaluation.PlayerRatingEvaluationRule;
+import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.evaluation.PlayerValueEvaluationRule;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.evaluation.PlayerWeightEvaluationRule;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.evaluation.PlayersEvaluationRule;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.evaluation.TitleEvaluationRule;
@@ -34,6 +35,7 @@ import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.fusers.PlayerNameFu
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.fusers.PlayerNationalityFuser;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.fusers.PlayerPositionFuser;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.fusers.PlayerRatingFuser;
+import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.fusers.PlayerValueFuser;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.fusers.PlayerWeightFuser;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.fusers.PlayersFuser;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.fusers.TitleFuserShortestString;
@@ -85,8 +87,8 @@ public class App_player
     			// load correspondences
     			CorrespondenceSet<Player, Attribute> correspondences = new CorrespondenceSet<>();
     			correspondences.loadCorrespondences(new File("data/correspondences/fifa17_2_fut17_correspondences.csv"), ds1, ds2);
-    			//correspondences.loadCorrespondences(new File("data/correspondences/fifa17_2_trans_correspondences.csv"), ds1, ds3);
-    			//correspondences.loadCorrespondences(new File("data/correspondences/fut17_2_trans_correspondences.csv"), ds2, ds3);    			
+    			correspondences.loadCorrespondences(new File("data/correspondences/fifa17_2_trans_correspondences.csv"), ds1, ds3);
+    			correspondences.loadCorrespondences(new File("data/correspondences/fut17_2_trans_correspondences.csv"), ds2, ds3);    			
     			// write group size distribution
     			correspondences.printGroupSizeDistribution();
 
@@ -103,7 +105,8 @@ public class App_player
     			strategy.addAttributeFuser(Player.POSITION, new PlayerPositionFuser(), new PlayerPositionEvaluationRule());
     			strategy.addAttributeFuser(Player.HEIGHT, new PlayerHeightFuser(), new PlayerHeightEvaluationRule());
     			strategy.addAttributeFuser(Player.WEIGHT, new PlayerWeightFuser(), new PlayerWeightEvaluationRule());
-    		
+    			strategy.addAttributeFuser(Player.VALUE, new PlayerValueFuser(), new PlayerValueEvaluationRule());
+
     			
     			// create the fusion engine
     			DataFusionEngine<Player, Attribute> engine = new DataFusionEngine<>(strategy);
@@ -115,7 +118,7 @@ public class App_player
     			FusibleDataSet<Player, Attribute> fusedDataSet = engine.run(correspondences, null);
 
     			// write the result
-    			new PlayerXMLFormatter().writeXML(new File("data/output/fused.xml"), fusedDataSet);
+    			new PlayerXMLFormatter().writeXML(new File("data/output/fused_player.xml"), fusedDataSet);
 
     			// load the gold standard
     			DataSet<Player, Attribute> gs = new FusibleHashedDataSet<>();

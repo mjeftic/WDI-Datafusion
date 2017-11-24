@@ -27,7 +27,7 @@ public class PlayerCSVFormatter extends CSVDataSetFormatter<Player, Attribute> {
 	
 	@Override
 	public String[] getHeader(DataSet<Player, Attribute> dataset) {
-		return new String[] { "id", "name", "nationality", "brithdate", "age", "rating", "position", "height", "weight" };
+		return new String[] { "id", "name", "nationality", "brithdate", "age", "rating", "position", "height", "weight","value" };
 	}
 
 	/* (non-Javadoc)
@@ -45,6 +45,7 @@ public class PlayerCSVFormatter extends CSVDataSetFormatter<Player, Attribute> {
 				record.getPosition(),
 				Double.toString(record.getHeight()),
 				Double.toString(record.getWeight()),
+				Double.toString(record.getValue()),
 		};
 	}
 

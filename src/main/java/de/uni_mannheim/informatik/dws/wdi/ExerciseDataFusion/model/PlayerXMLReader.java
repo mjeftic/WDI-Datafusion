@@ -47,6 +47,7 @@ public class PlayerXMLReader extends XMLMatchableReader<Player, Attribute>  {
 		dataset.addAttribute(Player.POSITION);
 		dataset.addAttribute(Player.WEIGHT);
 		dataset.addAttribute(Player.RATING);
+		dataset.addAttribute(Player.VALUE);
 		
 	}
 	
@@ -74,6 +75,11 @@ public class PlayerXMLReader extends XMLMatchableReader<Player, Attribute>  {
 				
 				try {
 					player.setWeight((double)Integer.parseInt(getValueFromChildElement(node, "weight")));
+				} catch (Exception e) {
+					
+				}
+				try {
+					player.setValue((double)Integer.parseInt(getValueFromChildElement(node, "value")));
 				} catch (Exception e) {
 					
 				}

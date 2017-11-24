@@ -42,7 +42,9 @@ public class Player extends AbstractRecord<Attribute> implements Serializable{
 	private String position;
 	private Double height;
 	private Double weight;
-	
+	private Double value;
+
+
 	public static final Attribute NAME = new Attribute("name");
 	public static final Attribute BIRTHDATE = new Attribute("brithdate");
 	public static final Attribute NATIONALITY = new Attribute("nationality");
@@ -51,7 +53,7 @@ public class Player extends AbstractRecord<Attribute> implements Serializable{
 	public static final Attribute POSITION = new Attribute("position");
 	public static final Attribute HEIGHT = new Attribute("height");
 	public static final Attribute WEIGHT = new Attribute("weight");
-
+	public static final Attribute VALUE = new Attribute("value");
 
 	public Player(String identifier, String provenance) {
 		super(identifier, provenance);
@@ -65,6 +67,17 @@ public class Player extends AbstractRecord<Attribute> implements Serializable{
 
 	public void setId(String id) {
 		this.id = id;
+	}
+
+	
+	
+	public Double getValue() {
+		return value;
+	}
+
+
+	public void setValue(Double value) {
+		this.value = value;
 	}
 
 
@@ -227,6 +240,8 @@ public class Player extends AbstractRecord<Attribute> implements Serializable{
 			return getWeight() != null && !getWeight().isNaN();
 		else if(attribute==HEIGHT)
 			return getHeight() != null && !getHeight().isNaN();
+		else if(attribute==VALUE)
+			return getValue() != null && !getValue().isNaN();
 		else
 		return false;
 	}
