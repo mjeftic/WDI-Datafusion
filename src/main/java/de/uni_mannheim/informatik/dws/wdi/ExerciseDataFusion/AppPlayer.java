@@ -58,7 +58,7 @@ import de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet;
 import de.uni_mannheim.informatik.dws.winter.model.RecordGroupFactory;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 
-public class App_player 
+public class AppPlayer 
 {
     public static void main( String[] args ) throws Exception
     {
@@ -124,7 +124,7 @@ public class App_player
 
     			// load the gold standard
     			DataSet<Player, Attribute> gs = new FusibleHashedDataSet<>();
-    			//new PlayerXMLReader().loadFromXML(new File("data/goldstandard/gs_Player.xml"), "/Players/Player", gs);
+    			new PlayerXMLReader().loadFromXML(new File("data/goldstandard/gs_player.xml"), "/players/player", gs);
     			//new PlayerXMLReader().loadFromXML(new File("data/goldstandard/gs_Player_stadium_2_fifa17.csv"),"/stadiums/stadium/Players/Player", gs);
     			
     			// evaluate

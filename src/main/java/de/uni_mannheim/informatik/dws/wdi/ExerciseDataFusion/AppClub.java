@@ -39,7 +39,7 @@ import de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet;
 import de.uni_mannheim.informatik.dws.winter.model.RecordGroupFactory;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 
-public class App 
+public class AppClub 
 {
     public static void main( String[] args ) throws Exception
     {
