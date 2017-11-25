@@ -28,7 +28,7 @@ public class PlayerXMLFormatter extends XMLFormatter<Player> {
 
 	@Override
 	public Element createRootElement(Document doc) {
-		return doc.createElement("player");
+		return doc.createElement("players");
 	}
 
 	@Override

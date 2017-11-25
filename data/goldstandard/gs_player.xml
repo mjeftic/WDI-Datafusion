@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
     <players>
+         <player>
+    <name>Besar Halimi</name>
+    <brithdate>1994-12-12</brithdate>
+    <nationality>Kosovo</nationality>
+    <position>Res</position>
+    <age>22</age>
+    <height>169</height>
+    <weight>68</weight>
+    <rating>68</rating>
+  </player>
         <player>
             <name>Cristiano Ronaldo</name>
             <brithdate>1985-02-05</brithdate>

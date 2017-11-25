@@ -92,9 +92,9 @@ public class AppClub
 
     			// write the result
 
-    			new ClubXMLFormatter().writeXML(new File("data/output/club_fused.xml"), fusedDataSet);
-
     			new ClubXMLFormatter().writeXML(new File("data/output/fused_club.xml"), fusedDataSet);
+
+
 
 
     			// load the gold standard

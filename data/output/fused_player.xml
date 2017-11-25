@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<player>
+<players>
   <player>
     <name>Besar Halimi</name>
     <brithdate>1994-12-12</brithdate>
@@ -124340,4 +124340,4 @@
     <rating>60.0</rating>
     <value>100000.0</value>
   </player>
-</player>
+</players>
