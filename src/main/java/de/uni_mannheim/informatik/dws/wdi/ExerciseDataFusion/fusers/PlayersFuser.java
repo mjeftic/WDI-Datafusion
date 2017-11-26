@@ -9,6 +9,7 @@ import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.model.Player;
 import de.uni_mannheim.informatik.dws.winter.datafusion.AttributeValueFuser;
 import de.uni_mannheim.informatik.dws.winter.datafusion.conflictresolution.ConflictResolutionFunction;
 import de.uni_mannheim.informatik.dws.winter.datafusion.conflictresolution.list.Union;
+import de.uni_mannheim.informatik.dws.winter.datafusion.conflictresolution.meta.FavourSources;
 import de.uni_mannheim.informatik.dws.winter.model.Correspondence;
 import de.uni_mannheim.informatik.dws.winter.model.FusedValue;
 import de.uni_mannheim.informatik.dws.winter.model.Matchable;
@@ -19,7 +20,7 @@ import de.uni_mannheim.informatik.dws.winter.processing.Processable;
 public class PlayersFuser extends AttributeValueFuser<List<Player>, Club, Attribute> {
 
 	public PlayersFuser() {
-		super(new Union<Player, Club, Attribute>());
+		super(new FavourSources<List<Player>, Club, Attribute>());
 	}
 
 	@Override
@@ -40,5 +41,6 @@ public class PlayersFuser extends AttributeValueFuser<List<Player>, Club, Attrib
 	public boolean hasValue(Club record, Correspondence<Attribute, Matchable> correspondence) {
 		return record.hasValue(Club.PLAYERS);
 	}
-
 }
+
+

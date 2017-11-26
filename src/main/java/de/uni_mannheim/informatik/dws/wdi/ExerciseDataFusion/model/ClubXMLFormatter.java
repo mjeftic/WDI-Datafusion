@@ -45,7 +45,7 @@ public class ClubXMLFormatter extends XMLFormatter<Club> {
 				record.getCapacity(),
 				record.getMergedAttributeProvenance(Club.CAPACITY), doc));
 
-		//club.appendChild(createPlayersElement(record, doc));
+		club.appendChild(createPlayersElement(record, doc));
 
 		return club;
 	}

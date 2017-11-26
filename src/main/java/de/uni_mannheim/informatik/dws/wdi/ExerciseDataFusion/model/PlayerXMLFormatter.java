@@ -34,6 +34,8 @@ public class PlayerXMLFormatter extends XMLFormatter<Player> {
 	@Override
 	public Element createElementFromRecord(Player record, Document doc) {
 		Element player = doc.createElement("player");
+		
+		player.appendChild(createTextElement("id", record.getId(), doc));
 
 		player.appendChild(createTextElement("name", record.getName(), doc));
 		
