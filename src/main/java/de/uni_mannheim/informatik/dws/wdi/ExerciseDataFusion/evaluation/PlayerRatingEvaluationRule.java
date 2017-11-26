@@ -19,7 +19,7 @@ public class PlayerRatingEvaluationRule extends EvaluationRule<Player, Attribute
 	public boolean isEqual(Player record1, Player record2, Attribute schemaElement) {
 		// the title is correct if all tokens are there, but the order does not
 		// matter
-		return sim.calculate((double)record1.getRating(), (double)record2.getRating()) == 1.0;
+		return sim.calculate((double)record1.getRating(), (double)record2.getRating()) >= 0.5;
 	}
 
 	/* (non-Javadoc)
