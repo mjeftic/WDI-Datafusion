@@ -13,13 +13,13 @@ import de.uni_mannheim.informatik.dws.winter.similarity.string.TokenizingJaccard
 
 public class PlayerHeightEvaluationRule extends EvaluationRule<Player, Attribute>{
 
-	SimilarityMeasure<Double> sim = new AbsoluteDifferenceSimilarity(1);
+	SimilarityMeasure<Double> sim = new AbsoluteDifferenceSimilarity(4);
 
 	@Override
 	public boolean isEqual(Player record1, Player record2, Attribute schemaElement) {
 		// the title is correct if all tokens are there, but the order does not
 		// matter
-		return sim.calculate((double)record1.getHeight(), (double)record2.getHeight()) == 1.0;
+		return sim.calculate((double)record1.getHeight(), (double)record2.getHeight()) >= 0.5;
 	}
 
 	/* (non-Javadoc)

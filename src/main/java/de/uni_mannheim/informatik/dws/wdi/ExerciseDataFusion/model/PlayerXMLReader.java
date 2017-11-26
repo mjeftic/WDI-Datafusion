@@ -71,7 +71,7 @@ public class PlayerXMLReader extends XMLMatchableReader<Player, Attribute>  {
 			    player.setBirthdate(getValueFromChildElement(node, "brithdate"));
 
 				
-				player.setAge((double)Integer.parseInt(getValueFromChildElement(node, "age")));
+				player.setAge((double)Double.parseDouble(getValueFromChildElement(node, "age")));
 				try {
 					player.setRating((double)Integer.parseInt(getValueFromChildElement(node, "rating")));
 				} catch (Exception e) {
