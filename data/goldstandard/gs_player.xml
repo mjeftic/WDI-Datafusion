@@ -85,7 +85,41 @@
             <height>191</height>
             <weight>80</weight>
             <rating>78</rating>
-        </player>
-        
-        
+        </player>   
+		<player>
+			<id>fifa17_316</id>
+			<name>Pierre-Emerick Aubameyang</name>
+			<brithdate>1989-06-18</brithdate>
+			<nationality>Gabon</nationality>
+			<age>28</age>
+			<value>65000000</value>
+			<rating>87</rating>
+			<position>Striker - Centre-Forward</position>
+			<height>187</height>
+			<weight>80</weight>
+		</player>
+		<player>
+			<id>fifa17_372</id>
+			<name>Kyle Walker-Peters</name>
+			<brithdate>1997-04-13</brithdate>
+			<nationality>England</nationality>
+			<age>19</age>
+			<value>1000000</value>
+			<rating>59</rating>
+			<position>Defence - Right-Back</position>
+			<height>176</height>
+			<weight>63</weight>
+		</player>
+		<player>
+			<id>fifa17_421</id>
+			<name>Julian Baumgartlinger</name>
+			<brithdate>1988-01-02</brithdate>
+			<nationality>Austria</nationality>
+			<age>29</age>
+			<value>5000000</value>
+			<rating>78</rating>
+			<position>Midfield - Defensive Midfield</position>
+			<height>183</height>
+			<weight>82</weight>
+		</player>
     </players>
