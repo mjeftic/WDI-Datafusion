@@ -47,12 +47,18 @@ public class AppFusionator {
 		int notfound = 0;
 		int totalclubplayers = 0;
 
-		
-		Element rootElement = doc.createElement("stadiums");
-		doc.appendChild(rootElement);
-		
+		Element element_clubs = doc.createElement("clubs");
+		doc.appendChild(element_clubs);
+
 		for (int i = 0; i < clubs.size(); i++) {
+
 			Club tempclub = clubs.get(i);
+
+			Element element_club = doc.createElement("club");
+			element_club.appendChild(createTextElement("name", tempclub.getName(), doc));
+			element_club.appendChild(createTextElement("capacity", tempclub.getCapacity(), doc));
+			element_clubs.appendChild(element_club);
+
 			List<Player> clubplayers = tempclub.getPlayers();
 			totalclubplayers = totalclubplayers + clubplayers.size();
 			playerofclub = new ArrayList<Player>();
@@ -67,8 +73,6 @@ public class AppFusionator {
 						playerofclub.add(freeplayer);
 						flag = 1;
 						break;
-						// System.out.println(freeplayer.getId() + " " +
-						// clubplayer.getId());
 					}
 				}
 				if (flag == 0) {
@@ -81,19 +85,12 @@ public class AppFusionator {
 
 			// Alle Spieler von einem Club gefunden
 
-			Element element_clubs = doc.createElement("clubs");
-			rootElement.appendChild(element_clubs);
-
-			// staff elements
-			Element element_club = doc.createElement("club");
-			rootElement.appendChild(element_club);
-
 			Element element_players = doc.createElement("players");
-			element_club.appendChild(element_players);
+			
 
 			for (Player player : playerofclub) {
 				Element element_player = doc.createElement("player");
-				element_player.appendChild(createTextElement("id", player.getId(), doc));
+			//	element_player.appendChild(createTextElement("id", player.getId(), doc));
 
 				element_player.appendChild(createTextElement("name", player.getName(), doc));
 				String date = player.getBirthdate().toString();
@@ -122,6 +119,7 @@ public class AppFusionator {
 				element_players.appendChild(element_player);
 
 			}
+			element_club.appendChild(element_players);
 
 		}
 		// write the content into xml file
