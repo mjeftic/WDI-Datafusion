@@ -174,7 +174,7 @@ public class Player extends AbstractRecord<Attribute> implements Serializable{
 	
 	@Override
 	public String toString() {
-		return String.format("[Player: %s / %s / %s]", getName(),
+		return String.format("[Player: %s / %s]", getName(),
 				getPosition());
 	}
 

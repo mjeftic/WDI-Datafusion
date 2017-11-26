@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
     <players>
-         <player>
-    <name>Besar Halimi</name>
-    <brithdate>1994-12-12</brithdate>
-    <nationality>Kosovo</nationality>
-    <position>Res</position>
-    <age>22</age>
-    <height>169</height>
-    <weight>68</weight>
-    <rating>68</rating>
-  </player>
         <player>
+            <id>fifa17_1</id>
             <name>Cristiano Ronaldo</name>
             <brithdate>1985-02-05</brithdate>
             <nationality>Portugal</nationality>
@@ -22,6 +13,7 @@
             <rating>94</rating>
         </player>
         <player>
+            <id>fifa17_199</id>
             <name>Miralem Pjanic</name>
             <brithdate>1990-04-02</brithdate>
             <nationality>Bosnia-Herzegovina</nationality>
@@ -34,6 +26,7 @@
             <rating>85</rating>
         </player>
         <player>
+            <id>fifa17_196</id>
             <name>Paulo Dybala</name>
             <brithdate>1993-11-15</brithdate>
             <nationality>Argentina</nationality>
@@ -46,6 +39,7 @@
             <rating>85</rating>
         </player>
         <player>
+            <id>fifa17_77</id>
             <name>Franck Ribéry</name>
             <brithdate>1983-04-07</brithdate>
             <nationality>France</nationality>
@@ -57,6 +51,7 @@
             <rating>86</rating>
         </player>
         <player>
+            <id>fifa17_321</id>
             <name>Shinji Kagawa</name>
             <brithdate>1989-03-17</brithdate>
             <nationality>Japan</nationality>
@@ -68,6 +63,7 @@
             <rating>83</rating>
         </player>
         <player>
+            <id>fifa17_315</id>
             <name>Marco Reus</name>
             <brithdate>1989-05-31</brithdate>
             <nationality>Germany</nationality>
@@ -79,6 +75,7 @@
             <rating>88</rating>
         </player>
         <player>
+            <id>fifa17_423</id>
             <name>Stefan Kießling</name>
             <brithdate>1984-01-25</brithdate>
             <nationality>Germany</nationality>
