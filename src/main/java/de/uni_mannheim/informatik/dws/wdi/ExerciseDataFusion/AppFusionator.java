@@ -15,15 +15,15 @@ import javax.xml.transform.stream.StreamResult;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
-import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.model.Club;
-import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.model.ClubXMLReader;
-import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.model.Player;
-import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.model.PlayerXMLFormatter;
-import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.model.PlayerXMLReader;
 import de.uni_mannheim.informatik.dws.winter.model.DataSet;
 import de.uni_mannheim.informatik.dws.winter.model.FusibleDataSet;
 import de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
+import model.Club;
+import model.ClubXMLReader;
+import model.Player;
+import model.PlayerXMLFormatter;
+import model.PlayerXMLReader;
 
 public class AppFusionator {
 

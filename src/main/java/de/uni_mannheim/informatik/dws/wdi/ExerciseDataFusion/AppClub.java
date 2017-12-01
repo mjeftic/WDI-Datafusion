@@ -7,28 +7,6 @@ import java.time.format.DateTimeFormatterBuilder;
 import java.time.temporal.ChronoField;
 import java.util.Locale;
 
-import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.evaluation.ActorsEvaluationRule;
-import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.evaluation.CapacityEvaluationRule;
-import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.evaluation.DateEvaluationRule;
-import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.evaluation.DirectorEvaluationRule;
-import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.evaluation.NameEvaluationRule;
-import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.evaluation.PlayersEvaluationRule;
-import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.evaluation.TitleEvaluationRule;
-import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.fusers.ActorsFuserUnion;
-import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.fusers.CapacityFuser;
-import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.fusers.DateFuserVoting;
-import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.fusers.DirectorFuserLongestString;
-import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.fusers.NameFuser;
-import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.fusers.PlayersFuser;
-import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.fusers.TitleFuserShortestString;
-import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.model.Club;
-import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.model.ClubXMLFormatter;
-import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.model.ClubXMLReader;
-import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.model.FusibleClubFactory;
-import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.model.FusibleMovieFactory;
-import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.model.Movie;
-import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.model.MovieXMLFormatter;
-import de.uni_mannheim.informatik.dws.wdi.ExerciseDataFusion.model.MovieXMLReader;
 import de.uni_mannheim.informatik.dws.winter.datafusion.CorrespondenceSet;
 import de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine;
 import de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator;
@@ -38,6 +16,16 @@ import de.uni_mannheim.informatik.dws.winter.model.FusibleDataSet;
 import de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet;
 import de.uni_mannheim.informatik.dws.winter.model.RecordGroupFactory;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
+import evaluation.CapacityEvaluationRule;
+import evaluation.NameEvaluationRule;
+import evaluation.PlayersEvaluationRule;
+import fusers.CapacityFuser;
+import fusers.NameFuser;
+import fusers.PlayersFuser;
+import model.Club;
+import model.ClubXMLFormatter;
+import model.ClubXMLReader;
+import model.FusibleClubFactory;
 
 public class AppClub 
 {
