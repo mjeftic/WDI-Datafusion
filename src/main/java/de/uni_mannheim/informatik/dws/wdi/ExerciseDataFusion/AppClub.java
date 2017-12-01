@@ -50,7 +50,7 @@ public class AppClub
     		
 
     			FusibleDataSet<Club, Attribute> ds2 = new FusibleHashedDataSet<>();
-    			new ClubXMLReader().loadFromXML(new File("data/input/fut17.xml"), "/stadiums/stadium/clubs/club", ds2);
+    			new ClubXMLReader().loadFromXML(new File("data/input/fut17_WD.xml"), "/stadiums/stadium/clubs/club", ds2);
     			ds2.printDataSetDensityReport();
 
     			FusibleDataSet<Club, Attribute> ds3 = new FusibleHashedDataSet<>();
@@ -67,7 +67,7 @@ public class AppClub
     			//TODO
     			// load correspondences
     			CorrespondenceSet<Club, Attribute> correspondences = new CorrespondenceSet<>();
-    			correspondences.loadCorrespondences(new File("data/correspondences/club_fut17_2_fifa17_correspondences.csv"), ds2, ds1);
+    			correspondences.loadCorrespondences(new File("data/correspondences/FINAL_club_fut17_2_fifa17_correspondences.csv"), ds2, ds1);
     			correspondences.loadCorrespondences(new File("data/correspondences/club_stadium_2_fifa17_correspondences.csv"), ds3, ds1);
     			
     			// write group size distribution
@@ -92,7 +92,7 @@ public class AppClub
 
     			// write the result
 
-    			new ClubXMLFormatter().writeXML(new File("data/output/fused_club.xml"), fusedDataSet);
+    			new ClubXMLFormatter().writeXML(new File("data/output/FINAL_fused_club.xml"), fusedDataSet);
 
 
 

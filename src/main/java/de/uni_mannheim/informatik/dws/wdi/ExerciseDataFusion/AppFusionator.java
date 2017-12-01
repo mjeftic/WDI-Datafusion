@@ -30,10 +30,10 @@ public class AppFusionator {
 	public static void main(String[] args) throws Exception {
 		// Load the Data into FusibleDataSet
 		FusibleDataSet<Player, Attribute> ds1 = new FusibleHashedDataSet<>();
-		new PlayerXMLReader().loadFromXML(new File("data/output/fused_player.xml"), "/players/player", ds1);
+		new PlayerXMLReader().loadFromXML(new File("data/output/FINAL_fused_player.xml"), "/players/player", ds1);
 
 		FusibleDataSet<Club, Attribute> ds2 = new FusibleHashedDataSet<>();
-		new ClubXMLReader().loadFromXML(new File("data/output/fused_club.xml"), "/clubs/club", ds2);
+		new ClubXMLReader().loadFromXML(new File("data/output/FINAL_fused_club.xml"), "/clubs/club", ds2);
 
 		List<Player> freeplayers = new ArrayList<Player>(ds1.get());
 		List<Club> clubs = new ArrayList<Club>(ds2.get());
@@ -126,7 +126,7 @@ public class AppFusionator {
 		TransformerFactory transformerFactory = TransformerFactory.newInstance();
 		Transformer transformer = transformerFactory.newTransformer();
 		DOMSource source = new DOMSource(doc);
-		StreamResult result = new StreamResult(new File("data/output/masterfuser.xml"));
+		StreamResult result = new StreamResult(new File("data/output/FINAL_masterfuser.xml"));
 		transformer.transform(source, result);
 		System.out.println("test");
 		System.out.println(count);

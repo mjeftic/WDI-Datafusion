@@ -69,7 +69,7 @@ public class AppPlayer
     		
 
     			FusibleDataSet<Player, Attribute> ds2 = new FusibleHashedDataSet<>();
-    			new PlayerXMLReader().loadFromXML(new File("data/input/fut17.xml"), "/stadiums/stadium/clubs/club/players/player", ds2);
+    			new PlayerXMLReader().loadFromXML(new File("data/input/fut17_WD.xml"), "/stadiums/stadium/clubs/club/players/player", ds2);
     			ds2.printDataSetDensityReport();
 
     			FusibleDataSet<Player, Attribute> ds3 = new FusibleHashedDataSet<>();
@@ -86,9 +86,9 @@ public class AppPlayer
     			//TODO
     			// load correspondences
     			CorrespondenceSet<Player, Attribute> correspondences = new CorrespondenceSet<>();
-    			correspondences.loadCorrespondences(new File("data/correspondences/fifa17_2_fut17_correspondences.csv"), ds1, ds2);
-    			correspondences.loadCorrespondences(new File("data/correspondences/fifa17_2_trans_correspondences.csv"), ds1, ds3);
-    			correspondences.loadCorrespondences(new File("data/correspondences/fut17_2_trans_correspondences.csv"), ds2, ds3);    			
+    			correspondences.loadCorrespondences(new File("data/correspondences/FINAL_fifa17_2_fut17_correspondences.csv"), ds1, ds2);
+    			correspondences.loadCorrespondences(new File("data/correspondences/FINAL_fifa17_2_trans_correspondences.csv"), ds1, ds3);
+    			correspondences.loadCorrespondences(new File("data/correspondences/FINAL_fut17_2_trans_correspondences.csv"), ds2, ds3);    			
     			// write group size distribution
     			correspondences.printGroupSizeDistribution();
 
@@ -119,7 +119,7 @@ public class AppPlayer
 
     			// write the result
 
-    			new PlayerXMLFormatter().writeXML(new File("data/output/fused_player.xml"), fusedDataSet);
+    			new PlayerXMLFormatter().writeXML(new File("data/output/FINAL_fused_player.xml"), fusedDataSet);
 
 
     			// load the gold standard
